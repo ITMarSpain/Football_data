@@ -1,4 +1,4 @@
-<html lang="cs" class="js"><!--<![endif]--><head>
+<html lang="cs" class="no-js"><!--<![endif]--><head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" id="viewportmeta" content="width=device-width, initial-scale=1.0">
@@ -363,7 +363,7 @@ function OptanonWrapper() { }
 										<span class="search__results__close js-search-results-close"><i class="icon icon__close-small"></i></span>
 										<ul class="wrap-header__list">
 											<li class="wrap-header__list__item semilong">
-												<select onchange="do_search(this);" style="display: none;">
+												<select onchange="do_search(this);">
 													<option value="0" selected="">all sports</option>
 <option value="1">Soccer</option>
 <option value="3">Basketball</option>
@@ -372,7 +372,7 @@ function OptanonWrapper() { }
 <option value="6">Baseball</option>
 <option value="12">Volleyball</option>
 <option value="7">Handball</option>
-												</select><div class="select" style="z-index: 248;"><ul style="z-index: 249;"><li rel="0" class="closed" style="z-index: 250;">all sports</li></ul></div>
+												</select>
 											</li>
 										</ul>
 									</div>
@@ -431,14 +431,14 @@ function OptanonWrapper() { }
 						<!-- left column -->
 						<div class="columns__item columns__item--68 columns__item--tab-100">
 
-<div class="in-infobox js-infobox" data-id="next1"><div class="in-infobox__text">Too many matches? As a registered user you can display just your favourite leagues (<a href="/user/settings/my-leagues/">select here</a>) by selecting "My leagues only" in menu.</div><a href="javascript:void(0);" class="in-infobox__close js-infobox-close"><i class="icon icon__close-small-2"></i></a></div>
-<div class="in-infobox js-infobox" data-id="next2"><div class="in-infobox__text">As a registered user you can save your time by selecting your favourite sport (<a href="/user/settings/">select here</a>). Next time you visit Next matches, your favourite sport will be displayed by default.</div><a href="javascript:void(0);" class="in-infobox__close js-infobox-close"><i class="icon icon__close-small-2"></i></a></div>
+<div class="in-infobox js-infobox h-display-none" data-id="next1"><div class="in-infobox__text">Too many matches? As a registered user you can display just your favourite leagues (<a href="/user/settings/my-leagues/">select here</a>) by selecting "My leagues only" in menu.</div><a href="javascript:void(0);" class="in-infobox__close js-infobox-close"><i class="icon icon__close-small-2"></i></a></div>
+<div class="in-infobox js-infobox h-display-none" data-id="next2"><div class="in-infobox__text">As a registered user you can save your time by selecting your favourite sport (<a href="/user/settings/">select here</a>). Next time you visit Next matches, your favourite sport will be displayed by default.</div><a href="javascript:void(0);" class="in-infobox__close js-infobox-close"><i class="icon icon__close-small-2"></i></a></div>
 <section class="wrap-section">
 <header class="wrap-section__header">
 <h2 class="wrap-section__header__title">Today's soccer matches</h2>
 <a href="#calendar" class="wrap-section__header__link mobile-tablet-only js-window-trigger"><i class="icon icon__calendar"></i> Calendar</a>
 </header>
-<div class="box-overflow" style="margin-bottom: 15px;"><div class="box-overflow__in"><ul class="list-tabs" style="padding-bottom: 0px; margin-bottom: 0px;">
+<div class="box-overflow"><div class="box-overflow__in"><ul class="list-tabs">
 <li class="list-tabs__item"><a href="/next/soccer/" class="list-tabs__item__in current">Soccer</a></li>
 <li class="list-tabs__item"><a href="/next/basketball/" class="list-tabs__item__in">Basketball</a></li>
 <li class="list-tabs__item"><a href="/next/hockey/" class="list-tabs__item__in">Hockey</a></li>
@@ -462,10 +462,10 @@ function OptanonWrapper() { }
 <ul class="wrap-header__list" id="next-filter-sort">
 <li class="wrap-header__list__item">Sort by:</li>
 <li class="wrap-header__list__item semilong">
-<select onchange="nr_sort_change();" style="display: none;">
+<select onchange="nr_sort_change();">
 <option value="1">Kick off times</option>
 <option value="2">Leagues</option>
-</select><div class="select" style="z-index: 248;"><ul style="z-index: 249;"><li rel="1" class="closed" style="z-index: 250;">Kick off times</li></ul></div>
+</select>
 </li>
 </ul>
 <ul class="wrap-header__list" id="next-filter-myonly">
@@ -2730,9 +2730,9 @@ function OptanonWrapper() { }
 <li><a href="/bookmaker/261/https://mediaserver.bwinpartypartners.com/renderBanner.do?zoneId=1641737" target="_blank" data-bookmaker-url="261">bwin</a></li>
 </ul></div></li></ul>
 </td>
-<td class="table-main__odds" data-oid="614coxv464x0xg3n5a"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=dE0FBxt7&amp;outcomeid=614coxv464x0xg3n5a&amp;otheroutcomes=614coxv498x0x0,614coxv464x0xg3n5b');" title="Add to My Selections" data-odd="1.51" data-odd-max="1.54"></a></td>
-<td class="table-main__odds" data-oid="614coxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=dE0FBxt7&amp;outcomeid=614coxv498x0x0&amp;otheroutcomes=614coxv464x0xg3n5a,614coxv464x0xg3n5b');" title="Add to My Selections" data-odd="3.86" data-odd-max="4.20"></a></td>
-<td class="table-main__odds" data-oid="614coxv464x0xg3n5b"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=dE0FBxt7&amp;outcomeid=614coxv464x0xg3n5b&amp;otheroutcomes=614coxv464x0xg3n5a,614coxv498x0x0');" title="Add to My Selections" data-odd="5.67" data-odd-max="6.50"></a></td>
+<td class="table-main__odds" data-oid="614coxv464x0xg3n5a"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=dE0FBxt7&amp;outcomeid=614coxv464x0xg3n5a&amp;otheroutcomes=614coxv498x0x0,614coxv464x0xg3n5b');" title="Add to My Selections" data-odd="1.49" data-odd-max="1.54"></a></td>
+<td class="table-main__odds" data-oid="614coxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=dE0FBxt7&amp;outcomeid=614coxv498x0x0&amp;otheroutcomes=614coxv464x0xg3n5a,614coxv464x0xg3n5b');" title="Add to My Selections" data-odd="3.93" data-odd-max="4.34"></a></td>
+<td class="table-main__odds" data-oid="614coxv464x0xg3n5b"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=dE0FBxt7&amp;outcomeid=614coxv464x0xg3n5b&amp;otheroutcomes=614coxv464x0xg3n5a,614coxv498x0x0');" title="Add to My Selections" data-odd="5.81" data-odd-max="7.00"></a></td>
 </tr>
 </tbody>
 <tbody data-key="155-63997">
@@ -2742,9 +2742,9 @@ function OptanonWrapper() { }
 <td class="livebet" data-live-cell="livebet">&nbsp;</td>
 <td class="table-main__streams" data-live-cell="score">
 </td>
-<td class="table-main__odds" data-oid="5r5e3xv464x0xfipqa"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=8YayR13e&amp;outcomeid=5r5e3xv464x0xfipqa&amp;otheroutcomes=5r5e3xv498x0x0,5r5e3xv464x0xfipqb');" title="Add to My Selections" data-odd="2.67" data-odd-max="2.94"></a></td>
+<td class="table-main__odds" data-oid="5r5e3xv464x0xfipqa"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=8YayR13e&amp;outcomeid=5r5e3xv464x0xfipqa&amp;otheroutcomes=5r5e3xv498x0x0,5r5e3xv464x0xfipqb');" title="Add to My Selections" data-odd="2.70" data-odd-max="2.98"></a></td>
 <td class="table-main__odds" data-oid="5r5e3xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=8YayR13e&amp;outcomeid=5r5e3xv498x0x0&amp;otheroutcomes=5r5e3xv464x0xfipqa,5r5e3xv464x0xfipqb');" title="Add to My Selections" data-odd="3.39" data-odd-max="3.55"></a></td>
-<td class="table-main__odds" data-oid="5r5e3xv464x0xfipqb"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=8YayR13e&amp;outcomeid=5r5e3xv464x0xfipqb&amp;otheroutcomes=5r5e3xv464x0xfipqa,5r5e3xv498x0x0');" title="Add to My Selections" data-odd="2.27" data-odd-max="2.32"></a></td>
+<td class="table-main__odds" data-oid="5r5e3xv464x0xfipqb"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=8YayR13e&amp;outcomeid=5r5e3xv464x0xfipqb&amp;otheroutcomes=5r5e3xv464x0xfipqa,5r5e3xv498x0x0');" title="Add to My Selections" data-odd="2.26" data-odd-max="2.32"></a></td>
 </tr>
 </tbody>
 <tbody data-key="94-63570">
@@ -2756,7 +2756,7 @@ function OptanonWrapper() { }
 </td>
 <td class="table-main__odds" data-oid="645llxv464x0xgcl2b"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=EoJahnm3&amp;outcomeid=645llxv464x0xgcl2b&amp;otheroutcomes=645llxv498x0x0,645llxv464x0xgcl2c');" title="Add to My Selections" data-odd="1.91" data-odd-max="1.96"></a></td>
 <td class="table-main__odds" data-oid="645llxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=EoJahnm3&amp;outcomeid=645llxv498x0x0&amp;otheroutcomes=645llxv464x0xgcl2b,645llxv464x0xgcl2c');" title="Add to My Selections" data-odd="2.91" data-odd-max="3.02"></a></td>
-<td class="table-main__odds" data-oid="645llxv464x0xgcl2c"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=EoJahnm3&amp;outcomeid=645llxv464x0xgcl2c&amp;otheroutcomes=645llxv464x0xgcl2b,645llxv498x0x0');" title="Add to My Selections" data-odd="4.15" data-odd-max="4.50"></a></td>
+<td class="table-main__odds" data-oid="645llxv464x0xgcl2c"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=EoJahnm3&amp;outcomeid=645llxv464x0xgcl2c&amp;otheroutcomes=645llxv464x0xgcl2b,645llxv498x0x0');" title="Add to My Selections" data-odd="4.19" data-odd-max="4.40"></a></td>
 </tr>
 </tbody>
 <tbody data-key="8-77062">
@@ -2783,9 +2783,9 @@ function OptanonWrapper() { }
 <li><a href="/bookmaker/1039/http://refparrknf.top/L?tag=s_144205m_355c_&amp;site=144205&amp;ad=355" target="_blank" data-bookmaker-url="1039">1xBet</a></li>
 </ul></div></li></ul>
 </td>
-<td class="table-main__odds" data-oid="64vcnxv464x0xgerlt"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=zmjqWOEU&amp;outcomeid=64vcnxv464x0xgerlt&amp;otheroutcomes=64vcnxv498x0x0,64vcnxv464x0xgerlu');" title="Add to My Selections" data-odd="1.63" data-odd-max="1.66"></a></td>
-<td class="table-main__odds" data-oid="64vcnxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=zmjqWOEU&amp;outcomeid=64vcnxv498x0x0&amp;otheroutcomes=64vcnxv464x0xgerlt,64vcnxv464x0xgerlu');" title="Add to My Selections" data-odd="3.98" data-odd-max="4.20"></a></td>
-<td class="table-main__odds" data-oid="64vcnxv464x0xgerlu"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=zmjqWOEU&amp;outcomeid=64vcnxv464x0xgerlu&amp;otheroutcomes=64vcnxv464x0xgerlt,64vcnxv498x0x0');" title="Add to My Selections" data-odd="4.15" data-odd-max="4.28"></a></td>
+<td class="table-main__odds" data-oid="64vcnxv464x0xgerlt"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=zmjqWOEU&amp;outcomeid=64vcnxv464x0xgerlt&amp;otheroutcomes=64vcnxv498x0x0,64vcnxv464x0xgerlu');" title="Add to My Selections" data-odd="1.64" data-odd-max="1.68"></a></td>
+<td class="table-main__odds" data-oid="64vcnxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=zmjqWOEU&amp;outcomeid=64vcnxv498x0x0&amp;otheroutcomes=64vcnxv464x0xgerlt,64vcnxv464x0xgerlu');" title="Add to My Selections" data-odd="3.97" data-odd-max="4.20"></a></td>
+<td class="table-main__odds" data-oid="64vcnxv464x0xgerlu"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=zmjqWOEU&amp;outcomeid=64vcnxv464x0xgerlu&amp;otheroutcomes=64vcnxv464x0xgerlt,64vcnxv498x0x0');" title="Add to My Selections" data-odd="4.13" data-odd-max="4.28"></a></td>
 </tr>
 </tbody>
 <tbody data-key="83-64082">
@@ -2802,8 +2802,8 @@ function OptanonWrapper() { }
 <li><a href="/bookmaker/241/http://record.affiliatelounge.com/_PQI2ELGFWby2bnhOaaLAUmNd7ZgqdRLk/4" target="_blank" data-bookmaker-url="241">Betsson</a></li>
 </ul></div></li></ul>
 </td>
-<td class="table-main__odds" data-oid="61pbqxv464x0xg5mja"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=xKSPcOm9&amp;outcomeid=61pbqxv464x0xg5mja&amp;otheroutcomes=61pbqxv498x0x0,61pbqxv464x0xg5mj9');" title="Add to My Selections" data-odd="8.14" data-odd-max="11.26"></a></td>
-<td class="table-main__odds" data-oid="61pbqxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=xKSPcOm9&amp;outcomeid=61pbqxv498x0x0&amp;otheroutcomes=61pbqxv464x0xg5mja,61pbqxv464x0xg5mj9');" title="Add to My Selections" data-odd="4.37" data-odd-max="4.75"></a></td>
+<td class="table-main__odds" data-oid="61pbqxv464x0xg5mja"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=xKSPcOm9&amp;outcomeid=61pbqxv464x0xg5mja&amp;otheroutcomes=61pbqxv498x0x0,61pbqxv464x0xg5mj9');" title="Add to My Selections" data-odd="8.07" data-odd-max="10.17"></a></td>
+<td class="table-main__odds" data-oid="61pbqxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=xKSPcOm9&amp;outcomeid=61pbqxv498x0x0&amp;otheroutcomes=61pbqxv464x0xg5mja,61pbqxv464x0xg5mj9');" title="Add to My Selections" data-odd="4.33" data-odd-max="4.50"></a></td>
 <td class="table-main__odds" data-oid="61pbqxv464x0xg5mj9"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=xKSPcOm9&amp;outcomeid=61pbqxv464x0xg5mj9&amp;otheroutcomes=61pbqxv464x0xg5mja,61pbqxv498x0x0');" title="Add to My Selections" data-odd="1.36" data-odd-max="1.43"></a></td>
 </tr>
 </tbody>
@@ -2882,18 +2882,18 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="5vmmvxv464x0xfvbgb"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=4v4KMcWi&amp;outcomeid=5vmmvxv464x0xfvbgb&amp;otheroutcomes=5vmmvxv498x0x0,5vmmvxv464x0xfvbgc');" title="Add to My Selections" data-odd="4.02" data-odd-max="4.48"></a></td>
-<td class="table-main__odds" data-oid="5vmmvxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=4v4KMcWi&amp;outcomeid=5vmmvxv498x0x0&amp;otheroutcomes=5vmmvxv464x0xfvbgb,5vmmvxv464x0xfvbgc');" title="Add to My Selections" data-odd="3.01" data-odd-max="3.25"></a></td>
-<td class="table-main__odds" data-oid="5vmmvxv464x0xfvbgc"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=4v4KMcWi&amp;outcomeid=5vmmvxv464x0xfvbgc&amp;otheroutcomes=5vmmvxv464x0xfvbgb,5vmmvxv498x0x0');" title="Add to My Selections" data-odd="1.89" data-odd-max="2.03"></a></td>
+<td class="table-main__odds" data-oid="5vmmvxv464x0xfvbgb"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=4v4KMcWi&amp;outcomeid=5vmmvxv464x0xfvbgb&amp;otheroutcomes=5vmmvxv498x0x0,5vmmvxv464x0xfvbgc');" title="Add to My Selections" data-odd="3.74" data-odd-max="4.14"></a></td>
+<td class="table-main__odds" data-oid="5vmmvxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=4v4KMcWi&amp;outcomeid=5vmmvxv498x0x0&amp;otheroutcomes=5vmmvxv464x0xfvbgb,5vmmvxv464x0xfvbgc');" title="Add to My Selections" data-odd="3.08" data-odd-max="3.25"></a></td>
+<td class="table-main__odds" data-oid="5vmmvxv464x0xfvbgc"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=4v4KMcWi&amp;outcomeid=5vmmvxv464x0xfvbgc&amp;otheroutcomes=5vmmvxv464x0xfvbgb,5vmmvxv498x0x0');" title="Add to My Selections" data-odd="1.93" data-odd-max="2.08"></a></td>
 </tr>
 <tr data-dt="12,1,2023,13,30" data-def="1">
 <td class="table-main__tt"><span class="table-main__time">13:30</span><a href="/soccer/egypt/division-2-group-a/misr-lel-makkasa-el-gouna/Qm5GNwHo/"><span>Misr Lel Makkasa</span> - <span>El Gouna</span></a></td>
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="5vmmuxv464x0xfvbg9"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=Qm5GNwHo&amp;outcomeid=5vmmuxv464x0xfvbg9&amp;otheroutcomes=5vmmuxv498x0x0,5vmmuxv464x0xfvbga');" title="Add to My Selections" data-odd="2.40" data-odd-max="2.50"></a></td>
-<td class="table-main__odds" data-oid="5vmmuxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=Qm5GNwHo&amp;outcomeid=5vmmuxv498x0x0&amp;otheroutcomes=5vmmuxv464x0xfvbg9,5vmmuxv464x0xfvbga');" title="Add to My Selections" data-odd="2.91" data-odd-max="3.00"></a></td>
-<td class="table-main__odds" data-oid="5vmmuxv464x0xfvbga"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=Qm5GNwHo&amp;outcomeid=5vmmuxv464x0xfvbga&amp;otheroutcomes=5vmmuxv464x0xfvbg9,5vmmuxv498x0x0');" title="Add to My Selections" data-odd="2.83" data-odd-max="3.01"></a></td>
+<td class="table-main__odds" data-oid="5vmmuxv464x0xfvbg9"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=Qm5GNwHo&amp;outcomeid=5vmmuxv464x0xfvbg9&amp;otheroutcomes=5vmmuxv498x0x0,5vmmuxv464x0xfvbga');" title="Add to My Selections" data-odd="2.46" data-odd-max="2.70"></a></td>
+<td class="table-main__odds" data-oid="5vmmuxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=Qm5GNwHo&amp;outcomeid=5vmmuxv498x0x0&amp;otheroutcomes=5vmmuxv464x0xfvbg9,5vmmuxv464x0xfvbga');" title="Add to My Selections" data-odd="2.90" data-odd-max="3.00"></a></td>
+<td class="table-main__odds" data-oid="5vmmuxv464x0xfvbga"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=Qm5GNwHo&amp;outcomeid=5vmmuxv464x0xfvbga&amp;otheroutcomes=5vmmuxv464x0xfvbg9,5vmmuxv498x0x0');" title="Add to My Selections" data-odd="2.76" data-odd-max="2.90"></a></td>
 </tr>
 <tr data-dt="12,1,2023,13,30" data-def="1">
 <td class="table-main__tt"><span class="table-main__time">13:30</span><a href="/soccer/egypt/division-2-group-a/nasr-taadeen-asyut-petroleum/fTdXJeGA/"><span>Nasr Taadeen</span> - <span>Asyut Petroleum</span></a></td>
@@ -2901,17 +2901,17 @@ function OptanonWrapper() { }
 <td class="table-main__streams">
 </td>
 <td class="table-main__odds" data-oid="5vmn2xv464x0xfvbgh"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=fTdXJeGA&amp;outcomeid=5vmn2xv464x0xfvbgh&amp;otheroutcomes=5vmn2xv498x0x0,5vmn2xv464x0xfvbgi');" title="Add to My Selections" data-odd="2.88" data-odd-max="3.19"></a></td>
-<td class="table-main__odds" data-oid="5vmn2xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=fTdXJeGA&amp;outcomeid=5vmn2xv498x0x0&amp;otheroutcomes=5vmn2xv464x0xfvbgh,5vmn2xv464x0xfvbgi');" title="Add to My Selections" data-odd="2.82" data-odd-max="3.00"></a></td>
-<td class="table-main__odds" data-oid="5vmn2xv464x0xfvbgi"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=fTdXJeGA&amp;outcomeid=5vmn2xv464x0xfvbgi&amp;otheroutcomes=5vmn2xv464x0xfvbgh,5vmn2xv498x0x0');" title="Add to My Selections" data-odd="2.44" data-odd-max="2.50"></a></td>
+<td class="table-main__odds" data-oid="5vmn2xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=fTdXJeGA&amp;outcomeid=5vmn2xv498x0x0&amp;otheroutcomes=5vmn2xv464x0xfvbgh,5vmn2xv464x0xfvbgi');" title="Add to My Selections" data-odd="2.84" data-odd-max="3.00"></a></td>
+<td class="table-main__odds" data-oid="5vmn2xv464x0xfvbgi"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=fTdXJeGA&amp;outcomeid=5vmn2xv464x0xfvbgi&amp;otheroutcomes=5vmn2xv464x0xfvbgh,5vmn2xv498x0x0');" title="Add to My Selections" data-odd="2.43" data-odd-max="2.50"></a></td>
 </tr>
 <tr data-dt="12,1,2023,13,30" data-def="1">
 <td class="table-main__tt"><span class="table-main__time">13:30</span><a href="/soccer/egypt/division-2-group-a/shoban-moslemen-qena-tamya/hEFzJFVG/"><span>Shoban Moslemen Qena</span> - <span>Tamya</span></a></td>
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="5vmn3xv464x0xfvbgj"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hEFzJFVG&amp;outcomeid=5vmn3xv464x0xfvbgj&amp;otheroutcomes=5vmn3xv498x0x0,5vmn3xv464x0xfvbgk');" title="Add to My Selections" data-odd="2.40" data-odd-max="2.54"></a></td>
+<td class="table-main__odds" data-oid="5vmn3xv464x0xfvbgj"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hEFzJFVG&amp;outcomeid=5vmn3xv464x0xfvbgj&amp;otheroutcomes=5vmn3xv498x0x0,5vmn3xv464x0xfvbgk');" title="Add to My Selections" data-odd="2.36" data-odd-max="2.50"></a></td>
 <td class="table-main__odds" data-oid="5vmn3xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hEFzJFVG&amp;outcomeid=5vmn3xv498x0x0&amp;otheroutcomes=5vmn3xv464x0xfvbgj,5vmn3xv464x0xfvbgk');" title="Add to My Selections" data-odd="2.85" data-odd-max="3.00"></a></td>
-<td class="table-main__odds" data-oid="5vmn3xv464x0xfvbgk"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hEFzJFVG&amp;outcomeid=5vmn3xv464x0xfvbgk&amp;otheroutcomes=5vmn3xv464x0xfvbgj,5vmn3xv498x0x0');" title="Add to My Selections" data-odd="2.90" data-odd-max="3.00"></a></td>
+<td class="table-main__odds" data-oid="5vmn3xv464x0xfvbgk"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hEFzJFVG&amp;outcomeid=5vmn3xv464x0xfvbgk&amp;otheroutcomes=5vmn3xv464x0xfvbgj,5vmn3xv498x0x0');" title="Add to My Selections" data-odd="2.98" data-odd-max="3.45"></a></td>
 </tr>
 <tr data-dt="12,1,2023,13,30" data-def="1">
 <td class="table-main__tt"><span class="table-main__time">13:30</span><a href="/soccer/egypt/division-2-group-a/telephonaat-beni-suef-la-viena/06cTKy14/"><span>Telephonaat Beni Suef</span> - <span>La Viena</span></a></td>
@@ -2935,9 +2935,9 @@ function OptanonWrapper() { }
 <li><a href="/bookmaker/241/http://record.affiliatelounge.com/_PQI2ELGFWby2bnhOaaLAUmNd7ZgqdRLk/4" target="_blank" data-bookmaker-url="241">Betsson</a></li>
 </ul></div></li></ul>
 </td>
-<td class="table-main__odds" data-oid="5r62exv464x0xfir5l"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=vmZ4AoST&amp;outcomeid=5r62exv464x0xfir5l&amp;otheroutcomes=5r62exv498x0x0,5r62exv464x0xfir5m');" title="Add to My Selections" data-odd="1.97" data-odd-max="2.05"></a></td>
+<td class="table-main__odds" data-oid="5r62exv464x0xfir5l"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=vmZ4AoST&amp;outcomeid=5r62exv464x0xfir5l&amp;otheroutcomes=5r62exv498x0x0,5r62exv464x0xfir5m');" title="Add to My Selections" data-odd="1.98" data-odd-max="2.08"></a></td>
 <td class="table-main__odds" data-oid="5r62exv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=vmZ4AoST&amp;outcomeid=5r62exv498x0x0&amp;otheroutcomes=5r62exv464x0xfir5l,5r62exv464x0xfir5m');" title="Add to My Selections" data-odd="3.35" data-odd-max="3.50"></a></td>
-<td class="table-main__odds" data-oid="5r62exv464x0xfir5m"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=vmZ4AoST&amp;outcomeid=5r62exv464x0xfir5m&amp;otheroutcomes=5r62exv464x0xfir5l,5r62exv498x0x0');" title="Add to My Selections" data-odd="3.44" data-odd-max="3.83"></a></td>
+<td class="table-main__odds" data-oid="5r62exv464x0xfir5m"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=vmZ4AoST&amp;outcomeid=5r62exv464x0xfir5m&amp;otheroutcomes=5r62exv464x0xfir5l,5r62exv498x0x0');" title="Add to My Selections" data-odd="3.41" data-odd-max="3.82"></a></td>
 </tr>
 <tr data-dt="12,1,2023,13,30" data-def="1">
 <td class="table-main__tt"><span class="table-main__time">13:30</span><a href="/soccer/saudi-arabia/saudi-professional-league/al-taee-al-taawon/ID4FUlDo/"><span>Al Taee</span> - <span>Al-Taawon</span></a></td>
@@ -2949,9 +2949,9 @@ function OptanonWrapper() { }
 <li><a href="/bookmaker/241/http://record.affiliatelounge.com/_PQI2ELGFWby2bnhOaaLAUmNd7ZgqdRLk/4" target="_blank" data-bookmaker-url="241">Betsson</a></li>
 </ul></div></li></ul>
 </td>
-<td class="table-main__odds" data-oid="5r62gxv464x0xfir5p"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=ID4FUlDo&amp;outcomeid=5r62gxv464x0xfir5p&amp;otheroutcomes=5r62gxv498x0x0,5r62gxv464x0xfir5q');" title="Add to My Selections" data-odd="2.51" data-odd-max="2.61"></a></td>
-<td class="table-main__odds" data-oid="5r62gxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=ID4FUlDo&amp;outcomeid=5r62gxv498x0x0&amp;otheroutcomes=5r62gxv464x0xfir5p,5r62gxv464x0xfir5q');" title="Add to My Selections" data-odd="3.09" data-odd-max="3.25"></a></td>
-<td class="table-main__odds" data-oid="5r62gxv464x0xfir5q"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=ID4FUlDo&amp;outcomeid=5r62gxv464x0xfir5q&amp;otheroutcomes=5r62gxv464x0xfir5p,5r62gxv498x0x0');" title="Add to My Selections" data-odd="2.64" data-odd-max="2.83"></a></td>
+<td class="table-main__odds" data-oid="5r62gxv464x0xfir5p"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=ID4FUlDo&amp;outcomeid=5r62gxv464x0xfir5p&amp;otheroutcomes=5r62gxv498x0x0,5r62gxv464x0xfir5q');" title="Add to My Selections" data-odd="2.50" data-odd-max="2.60"></a></td>
+<td class="table-main__odds" data-oid="5r62gxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=ID4FUlDo&amp;outcomeid=5r62gxv498x0x0&amp;otheroutcomes=5r62gxv464x0xfir5p,5r62gxv464x0xfir5q');" title="Add to My Selections" data-odd="3.07" data-odd-max="3.20"></a></td>
+<td class="table-main__odds" data-oid="5r62gxv464x0xfir5q"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=ID4FUlDo&amp;outcomeid=5r62gxv464x0xfir5q&amp;otheroutcomes=5r62gxv464x0xfir5p,5r62gxv498x0x0');" title="Add to My Selections" data-odd="2.62" data-odd-max="2.70"></a></td>
 </tr>
 </tbody>
 <tbody data-key="8-77062">
@@ -2965,8 +2965,8 @@ function OptanonWrapper() { }
 <li><a href="/bookmaker/1039/http://refparrknf.top/L?tag=s_144205m_355c_&amp;site=144205&amp;ad=355" target="_blank" data-bookmaker-url="1039">1xBet</a></li>
 </ul></div></li></ul>
 </td>
-<td class="table-main__odds" data-oid="6514exv464x0xgevsc"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=AHMolDmb&amp;outcomeid=6514exv464x0xgevsc&amp;otheroutcomes=6514exv498x0x0,6514exv464x0xgevsd');" title="Add to My Selections" data-odd="4.67" data-odd-max="5.10"></a></td>
-<td class="table-main__odds" data-oid="6514exv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=AHMolDmb&amp;outcomeid=6514exv498x0x0&amp;otheroutcomes=6514exv464x0xgevsc,6514exv464x0xgevsd');" title="Add to My Selections" data-odd="4.14" data-odd-max="4.30"></a></td>
+<td class="table-main__odds" data-oid="6514exv464x0xgevsc"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=AHMolDmb&amp;outcomeid=6514exv464x0xgevsc&amp;otheroutcomes=6514exv498x0x0,6514exv464x0xgevsd');" title="Add to My Selections" data-odd="4.69" data-odd-max="5.20"></a></td>
+<td class="table-main__odds" data-oid="6514exv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=AHMolDmb&amp;outcomeid=6514exv498x0x0&amp;otheroutcomes=6514exv464x0xgevsc,6514exv464x0xgevsd');" title="Add to My Selections" data-odd="4.17" data-odd-max="4.39"></a></td>
 <td class="table-main__odds" data-oid="6514exv464x0xgevsd"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=AHMolDmb&amp;outcomeid=6514exv464x0xgevsd&amp;otheroutcomes=6514exv464x0xgevsc,6514exv498x0x0');" title="Add to My Selections" data-odd="1.52" data-odd-max="1.60"></a></td>
 </tr>
 <tr data-dt="12,1,2023,14,00" data-def="1">
@@ -2997,7 +2997,7 @@ function OptanonWrapper() { }
 </ul></div></li></ul>
 </td>
 <td class="table-main__odds" data-oid="63q0mxv464x0xgbjff"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=On5bE85B&amp;outcomeid=63q0mxv464x0xgbjff&amp;otheroutcomes=63q0mxv498x0x0,63q0mxv464x0xgbjfg');" title="Add to My Selections" data-odd="2.18" data-odd-max="2.25"></a></td>
-<td class="table-main__odds" data-oid="63q0mxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=On5bE85B&amp;outcomeid=63q0mxv498x0x0&amp;otheroutcomes=63q0mxv464x0xgbjff,63q0mxv464x0xgbjfg');" title="Add to My Selections" data-odd="3.49" data-odd-max="3.73"></a></td>
+<td class="table-main__odds" data-oid="63q0mxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=On5bE85B&amp;outcomeid=63q0mxv498x0x0&amp;otheroutcomes=63q0mxv464x0xgbjff,63q0mxv464x0xgbjfg');" title="Add to My Selections" data-odd="3.50" data-odd-max="3.73"></a></td>
 <td class="table-main__odds" data-oid="63q0mxv464x0xgbjfg"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=On5bE85B&amp;outcomeid=63q0mxv464x0xgbjfg&amp;otheroutcomes=63q0mxv464x0xgbjff,63q0mxv498x0x0');" title="Add to My Selections" data-odd="2.83" data-odd-max="3.02"></a></td>
 </tr>
 <tr data-dt="12,1,2023,14,15" data-def="1">
@@ -3021,9 +3021,9 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="651k4xv464x0xgf1b2"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=0QXTexKA&amp;outcomeid=651k4xv464x0xgf1b2&amp;otheroutcomes=651k4xv498x0x0,651k4xv464x0xgf1b3');" title="Add to My Selections" data-odd="1.06" data-odd-max="1.14"></a></td>
-<td class="table-main__odds" data-oid="651k4xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=0QXTexKA&amp;outcomeid=651k4xv498x0x0&amp;otheroutcomes=651k4xv464x0xgf1b2,651k4xv464x0xgf1b3');" title="Add to My Selections" data-odd="9.12" data-odd-max="11.00"></a></td>
-<td class="table-main__odds" data-oid="651k4xv464x0xgf1b3"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=0QXTexKA&amp;outcomeid=651k4xv464x0xgf1b3&amp;otheroutcomes=651k4xv464x0xgf1b2,651k4xv498x0x0');" title="Add to My Selections" data-odd="20.69" data-odd-max="29.00"></a></td>
+<td class="table-main__odds" data-oid="651k4xv464x0xgf1b2"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=0QXTexKA&amp;outcomeid=651k4xv464x0xgf1b2&amp;otheroutcomes=651k4xv498x0x0,651k4xv464x0xgf1b3');" title="Add to My Selections" data-odd="1.07" data-odd-max="1.14"></a></td>
+<td class="table-main__odds" data-oid="651k4xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=0QXTexKA&amp;outcomeid=651k4xv498x0x0&amp;otheroutcomes=651k4xv464x0xgf1b2,651k4xv464x0xgf1b3');" title="Add to My Selections" data-odd="9.08" data-odd-max="11.00"></a></td>
+<td class="table-main__odds" data-oid="651k4xv464x0xgf1b3"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=0QXTexKA&amp;outcomeid=651k4xv464x0xgf1b3&amp;otheroutcomes=651k4xv464x0xgf1b2,651k4xv498x0x0');" title="Add to My Selections" data-odd="20.21" data-odd-max="27.00"></a></td>
 </tr>
 </tbody>
 <tbody data-key="97-63691">
@@ -3034,8 +3034,8 @@ function OptanonWrapper() { }
 <td class="table-main__streams">
 </td>
 <td class="table-main__odds" data-oid="5qc62xv464x0xfgom1"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hhMmm0A2&amp;outcomeid=5qc62xv464x0xfgom1&amp;otheroutcomes=5qc62xv498x0x0,5qc62xv464x0xfgom2');" title="Add to My Selections" data-odd="1.32" data-odd-max="1.35"></a></td>
-<td class="table-main__odds" data-oid="5qc62xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hhMmm0A2&amp;outcomeid=5qc62xv498x0x0&amp;otheroutcomes=5qc62xv464x0xfgom1,5qc62xv464x0xfgom2');" title="Add to My Selections" data-odd="4.59" data-odd-max="4.90"></a></td>
-<td class="table-main__odds" data-oid="5qc62xv464x0xfgom2"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hhMmm0A2&amp;outcomeid=5qc62xv464x0xfgom2&amp;otheroutcomes=5qc62xv464x0xfgom1,5qc62xv498x0x0');" title="Add to My Selections" data-odd="7.41" data-odd-max="8.50"></a></td>
+<td class="table-main__odds" data-oid="5qc62xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hhMmm0A2&amp;outcomeid=5qc62xv498x0x0&amp;otheroutcomes=5qc62xv464x0xfgom1,5qc62xv464x0xfgom2');" title="Add to My Selections" data-odd="4.60" data-odd-max="4.90"></a></td>
+<td class="table-main__odds" data-oid="5qc62xv464x0xfgom2"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hhMmm0A2&amp;outcomeid=5qc62xv464x0xfgom2&amp;otheroutcomes=5qc62xv464x0xfgom1,5qc62xv498x0x0');" title="Add to My Selections" data-odd="7.48" data-odd-max="8.50"></a></td>
 </tr>
 </tbody>
 <tbody data-key="8-77062">
@@ -3050,8 +3050,8 @@ function OptanonWrapper() { }
 </ul></div></li></ul>
 </td>
 <td class="table-main__odds" data-oid="6514lxv464x0xgevsq"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=z5gwvTPj&amp;outcomeid=6514lxv464x0xgevsq&amp;otheroutcomes=6514lxv498x0x0,6514lxv464x0xgevsr');" title="Add to My Selections" data-odd="1.20" data-odd-max="1.23"></a></td>
-<td class="table-main__odds" data-oid="6514lxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=z5gwvTPj&amp;outcomeid=6514lxv498x0x0&amp;otheroutcomes=6514lxv464x0xgevsq,6514lxv464x0xgevsr');" title="Add to My Selections" data-odd="6.20" data-odd-max="6.65"></a></td>
-<td class="table-main__odds" data-oid="6514lxv464x0xgevsr"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=z5gwvTPj&amp;outcomeid=6514lxv464x0xgevsr&amp;otheroutcomes=6514lxv464x0xgevsq,6514lxv498x0x0');" title="Add to My Selections" data-odd="9.24" data-odd-max="11.00"></a></td>
+<td class="table-main__odds" data-oid="6514lxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=z5gwvTPj&amp;outcomeid=6514lxv498x0x0&amp;otheroutcomes=6514lxv464x0xgevsq,6514lxv464x0xgevsr');" title="Add to My Selections" data-odd="6.22" data-odd-max="6.65"></a></td>
+<td class="table-main__odds" data-oid="6514lxv464x0xgevsr"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=z5gwvTPj&amp;outcomeid=6514lxv464x0xgevsr&amp;otheroutcomes=6514lxv464x0xgevsq,6514lxv498x0x0');" title="Add to My Selections" data-odd="9.16" data-odd-max="11.00"></a></td>
 </tr>
 </tbody>
 <tbody data-key="39-63291">
@@ -3078,9 +3078,9 @@ function OptanonWrapper() { }
 <li><a href="/bookmaker/239/http://record.betsafe.com/_PQI2ELGFWbyaidueJ_KTdmNd7ZgqdRLk/6/" target="_blank" data-bookmaker-url="239">Betsafe</a></li>
 </ul></div></li></ul>
 </td>
-<td class="table-main__odds" data-oid="60qpuxv464x0xg2php"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=CzhGBYmP&amp;outcomeid=60qpuxv464x0xg2php&amp;otheroutcomes=60qpuxv498x0x0,60qpuxv464x0xg2phq');" title="Add to My Selections" data-odd="2.00" data-odd-max="2.10"></a></td>
-<td class="table-main__odds" data-oid="60qpuxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=CzhGBYmP&amp;outcomeid=60qpuxv498x0x0&amp;otheroutcomes=60qpuxv464x0xg2php,60qpuxv464x0xg2phq');" title="Add to My Selections" data-odd="3.19" data-odd-max="3.50"></a></td>
-<td class="table-main__odds" data-oid="60qpuxv464x0xg2phq"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=CzhGBYmP&amp;outcomeid=60qpuxv464x0xg2phq&amp;otheroutcomes=60qpuxv464x0xg2php,60qpuxv498x0x0');" title="Add to My Selections" data-odd="3.41" data-odd-max="3.50"></a></td>
+<td class="table-main__odds" data-oid="60qpuxv464x0xg2php"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=CzhGBYmP&amp;outcomeid=60qpuxv464x0xg2php&amp;otheroutcomes=60qpuxv498x0x0,60qpuxv464x0xg2phq');" title="Add to My Selections" data-odd="2.01" data-odd-max="2.10"></a></td>
+<td class="table-main__odds" data-oid="60qpuxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=CzhGBYmP&amp;outcomeid=60qpuxv498x0x0&amp;otheroutcomes=60qpuxv464x0xg2php,60qpuxv464x0xg2phq');" title="Add to My Selections" data-odd="3.18" data-odd-max="3.50"></a></td>
+<td class="table-main__odds" data-oid="60qpuxv464x0xg2phq"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=CzhGBYmP&amp;outcomeid=60qpuxv464x0xg2phq&amp;otheroutcomes=60qpuxv464x0xg2php,60qpuxv498x0x0');" title="Add to My Selections" data-odd="3.39" data-odd-max="3.50"></a></td>
 </tr>
 </tbody>
 <tbody data-key="93-63548">
@@ -3096,9 +3096,9 @@ function OptanonWrapper() { }
 <li><a href="/bookmaker/261/https://mediaserver.bwinpartypartners.com/renderBanner.do?zoneId=1641737" target="_blank" data-bookmaker-url="261">bwin</a></li>
 </ul></div></li></ul>
 </td>
-<td class="table-main__odds" data-oid="5tmfgxv464x0xfpeju"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=GOKoHHpk&amp;outcomeid=5tmfgxv464x0xfpeju&amp;otheroutcomes=5tmfgxv498x0x0,5tmfgxv464x0xfpejv');" title="Add to My Selections" data-odd="1.61" data-odd-max="1.65"></a></td>
-<td class="table-main__odds" data-oid="5tmfgxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=GOKoHHpk&amp;outcomeid=5tmfgxv498x0x0&amp;otheroutcomes=5tmfgxv464x0xfpeju,5tmfgxv464x0xfpejv');" title="Add to My Selections" data-odd="4.03" data-odd-max="4.22"></a></td>
-<td class="table-main__odds" data-oid="5tmfgxv464x0xfpejv"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=GOKoHHpk&amp;outcomeid=5tmfgxv464x0xfpejv&amp;otheroutcomes=5tmfgxv464x0xfpeju,5tmfgxv498x0x0');" title="Add to My Selections" data-odd="4.52" data-odd-max="5.10"></a></td>
+<td class="table-main__odds" data-oid="5tmfgxv464x0xfpeju"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=GOKoHHpk&amp;outcomeid=5tmfgxv464x0xfpeju&amp;otheroutcomes=5tmfgxv498x0x0,5tmfgxv464x0xfpejv');" title="Add to My Selections" data-odd="1.65" data-odd-max="1.72"></a></td>
+<td class="table-main__odds" data-oid="5tmfgxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=GOKoHHpk&amp;outcomeid=5tmfgxv498x0x0&amp;otheroutcomes=5tmfgxv464x0xfpeju,5tmfgxv464x0xfpejv');" title="Add to My Selections" data-odd="3.95" data-odd-max="4.20"></a></td>
+<td class="table-main__odds" data-oid="5tmfgxv464x0xfpejv"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=GOKoHHpk&amp;outcomeid=5tmfgxv464x0xfpejv&amp;otheroutcomes=5tmfgxv464x0xfpeju,5tmfgxv498x0x0');" title="Add to My Selections" data-odd="4.30" data-odd-max="5.05"></a></td>
 </tr>
 </tbody>
 <tbody data-key="97-63691">
@@ -3162,17 +3162,17 @@ function OptanonWrapper() { }
 <td class="table-main__streams">
 </td>
 <td class="table-main__odds" data-oid="6128rxv464x0xg3ge5"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=CUYRODjS&amp;outcomeid=6128rxv464x0xg3ge5&amp;otheroutcomes=6128rxv498x0x0,6128rxv464x0xg3ge6');" title="Add to My Selections" data-odd="1.11" data-odd-max="1.15"></a></td>
-<td class="table-main__odds" data-oid="6128rxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=CUYRODjS&amp;outcomeid=6128rxv498x0x0&amp;otheroutcomes=6128rxv464x0xg3ge5,6128rxv464x0xg3ge6');" title="Add to My Selections" data-odd="7.20" data-odd-max="8.25"></a></td>
-<td class="table-main__odds" data-oid="6128rxv464x0xg3ge6"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=CUYRODjS&amp;outcomeid=6128rxv464x0xg3ge6&amp;otheroutcomes=6128rxv464x0xg3ge5,6128rxv498x0x0');" title="Add to My Selections" data-odd="19.79" data-odd-max="26.08"></a></td>
+<td class="table-main__odds" data-oid="6128rxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=CUYRODjS&amp;outcomeid=6128rxv498x0x0&amp;otheroutcomes=6128rxv464x0xg3ge5,6128rxv464x0xg3ge6');" title="Add to My Selections" data-odd="7.14" data-odd-max="8.25"></a></td>
+<td class="table-main__odds" data-oid="6128rxv464x0xg3ge6"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=CUYRODjS&amp;outcomeid=6128rxv464x0xg3ge6&amp;otheroutcomes=6128rxv464x0xg3ge5,6128rxv498x0x0');" title="Add to My Selections" data-odd="19.72" data-odd-max="26.08"></a></td>
 </tr>
 <tr data-dt="12,1,2023,16,00" data-def="1">
 <td class="table-main__tt"><span class="table-main__time">16:00</span><a href="/soccer/asia/gulf-cup-of-nations/saudi-arabia-oman/hOGfKXbq/"><span>Saudi Arabia</span> - <span>Oman</span></a></td>
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="6128sxv464x0xg3ge7"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hOGfKXbq&amp;outcomeid=6128sxv464x0xg3ge7&amp;otheroutcomes=6128sxv498x0x0,6128sxv464x0xg3ge8');" title="Add to My Selections" data-odd="2.90" data-odd-max="3.13"></a></td>
-<td class="table-main__odds" data-oid="6128sxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hOGfKXbq&amp;outcomeid=6128sxv498x0x0&amp;otheroutcomes=6128sxv464x0xg3ge7,6128sxv464x0xg3ge8');" title="Add to My Selections" data-odd="2.78" data-odd-max="2.94"></a></td>
-<td class="table-main__odds" data-oid="6128sxv464x0xg3ge8"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hOGfKXbq&amp;outcomeid=6128sxv464x0xg3ge8&amp;otheroutcomes=6128sxv464x0xg3ge7,6128sxv498x0x0');" title="Add to My Selections" data-odd="2.55" data-odd-max="2.75"></a></td>
+<td class="table-main__odds" data-oid="6128sxv464x0xg3ge7"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hOGfKXbq&amp;outcomeid=6128sxv464x0xg3ge7&amp;otheroutcomes=6128sxv498x0x0,6128sxv464x0xg3ge8');" title="Add to My Selections" data-odd="2.89" data-odd-max="3.17"></a></td>
+<td class="table-main__odds" data-oid="6128sxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hOGfKXbq&amp;outcomeid=6128sxv498x0x0&amp;otheroutcomes=6128sxv464x0xg3ge7,6128sxv464x0xg3ge8');" title="Add to My Selections" data-odd="2.77" data-odd-max="2.94"></a></td>
+<td class="table-main__odds" data-oid="6128sxv464x0xg3ge8"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hOGfKXbq&amp;outcomeid=6128sxv464x0xg3ge8&amp;otheroutcomes=6128sxv464x0xg3ge7,6128sxv498x0x0');" title="Add to My Selections" data-odd="2.57" data-odd-max="2.75"></a></td>
 </tr>
 </tbody>
 <tbody data-key="28-63118">
@@ -3215,9 +3215,9 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="60muixv464x0xg2dva"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=KtuGHKXK&amp;outcomeid=60muixv464x0xg2dva&amp;otheroutcomes=60muixv498x0x0,60muixv464x0xg2dvb');" title="Add to My Selections" data-odd="2.83" data-odd-max="3.06"></a></td>
+<td class="table-main__odds" data-oid="60muixv464x0xg2dva"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=KtuGHKXK&amp;outcomeid=60muixv464x0xg2dva&amp;otheroutcomes=60muixv498x0x0,60muixv464x0xg2dvb');" title="Add to My Selections" data-odd="2.84" data-odd-max="3.06"></a></td>
 <td class="table-main__odds" data-oid="60muixv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=KtuGHKXK&amp;outcomeid=60muixv498x0x0&amp;otheroutcomes=60muixv464x0xg2dva,60muixv464x0xg2dvb');" title="Add to My Selections" data-odd="2.72" data-odd-max="2.83"></a></td>
-<td class="table-main__odds" data-oid="60muixv464x0xg2dvb"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=KtuGHKXK&amp;outcomeid=60muixv464x0xg2dvb&amp;otheroutcomes=60muixv464x0xg2dva,60muixv498x0x0');" title="Add to My Selections" data-odd="2.69" data-odd-max="2.86"></a></td>
+<td class="table-main__odds" data-oid="60muixv464x0xg2dvb"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=KtuGHKXK&amp;outcomeid=60muixv464x0xg2dvb&amp;otheroutcomes=60muixv464x0xg2dva,60muixv498x0x0');" title="Add to My Selections" data-odd="2.68" data-odd-max="2.85"></a></td>
 </tr>
 </tbody>
 <tbody data-key="82-63533">
@@ -3259,7 +3259,7 @@ function OptanonWrapper() { }
 </td>
 <td class="table-main__odds" data-oid="62laexv464x0xg88ds"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=dbdFfyji&amp;outcomeid=62laexv464x0xg88ds&amp;otheroutcomes=62laexv498x0x0,62laexv464x0xg88dt');" title="Add to My Selections" data-odd="1.68" data-odd-max="1.83"></a></td>
 <td class="table-main__odds" data-oid="62laexv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=dbdFfyji&amp;outcomeid=62laexv498x0x0&amp;otheroutcomes=62laexv464x0xg88ds,62laexv464x0xg88dt');" title="Add to My Selections" data-odd="3.65" data-odd-max="3.78"></a></td>
-<td class="table-main__odds" data-oid="62laexv464x0xg88dt"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=dbdFfyji&amp;outcomeid=62laexv464x0xg88dt&amp;otheroutcomes=62laexv464x0xg88ds,62laexv498x0x0');" title="Add to My Selections" data-odd="4.07" data-odd-max="4.33"></a></td>
+<td class="table-main__odds" data-oid="62laexv464x0xg88dt"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=dbdFfyji&amp;outcomeid=62laexv464x0xg88dt&amp;otheroutcomes=62laexv464x0xg88ds,62laexv498x0x0');" title="Add to My Selections" data-odd="4.05" data-odd-max="4.33"></a></td>
 </tr>
 </tbody>
 <tbody data-key="8-77062">
@@ -3273,9 +3273,9 @@ function OptanonWrapper() { }
 <li><a href="/bookmaker/1039/http://refparrknf.top/L?tag=s_144205m_355c_&amp;site=144205&amp;ad=355" target="_blank" data-bookmaker-url="1039">1xBet</a></li>
 </ul></div></li></ul>
 </td>
-<td class="table-main__odds" data-oid="64vf6xv464x0xgerqr"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YDUlNrlj&amp;outcomeid=64vf6xv464x0xgerqr&amp;otheroutcomes=64vf6xv498x0x0,64vf6xv464x0xgerqs');" title="Add to My Selections" data-odd="1.90" data-odd-max="1.95"></a></td>
-<td class="table-main__odds" data-oid="64vf6xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YDUlNrlj&amp;outcomeid=64vf6xv498x0x0&amp;otheroutcomes=64vf6xv464x0xgerqr,64vf6xv464x0xgerqs');" title="Add to My Selections" data-odd="3.74" data-odd-max="3.82"></a></td>
-<td class="table-main__odds" data-oid="64vf6xv464x0xgerqs"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YDUlNrlj&amp;outcomeid=64vf6xv464x0xgerqs&amp;otheroutcomes=64vf6xv464x0xgerqr,64vf6xv498x0x0');" title="Add to My Selections" data-odd="3.30" data-odd-max="3.56"></a></td>
+<td class="table-main__odds" data-oid="64vf6xv464x0xgerqr"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YDUlNrlj&amp;outcomeid=64vf6xv464x0xgerqr&amp;otheroutcomes=64vf6xv498x0x0,64vf6xv464x0xgerqs');" title="Add to My Selections" data-odd="1.90" data-odd-max="2.00"></a></td>
+<td class="table-main__odds" data-oid="64vf6xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YDUlNrlj&amp;outcomeid=64vf6xv498x0x0&amp;otheroutcomes=64vf6xv464x0xgerqr,64vf6xv464x0xgerqs');" title="Add to My Selections" data-odd="3.75" data-odd-max="3.90"></a></td>
+<td class="table-main__odds" data-oid="64vf6xv464x0xgerqs"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YDUlNrlj&amp;outcomeid=64vf6xv464x0xgerqs&amp;otheroutcomes=64vf6xv464x0xgerqr,64vf6xv498x0x0');" title="Add to My Selections" data-odd="3.28" data-odd-max="3.56"></a></td>
 </tr>
 </tbody>
 <tbody data-key="8-77063">
@@ -3297,9 +3297,9 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="651k7xv464x0xgf1b8"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=pGb5xlJk&amp;outcomeid=651k7xv464x0xgf1b8&amp;otheroutcomes=651k7xv498x0x0,651k7xv464x0xgf1b9');" title="Add to My Selections" data-odd="1.58" data-odd-max="1.67"></a></td>
+<td class="table-main__odds" data-oid="651k7xv464x0xgf1b8"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=pGb5xlJk&amp;outcomeid=651k7xv464x0xgf1b8&amp;otheroutcomes=651k7xv498x0x0,651k7xv464x0xgf1b9');" title="Add to My Selections" data-odd="1.59" data-odd-max="1.67"></a></td>
 <td class="table-main__odds" data-oid="651k7xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=pGb5xlJk&amp;outcomeid=651k7xv498x0x0&amp;otheroutcomes=651k7xv464x0xgf1b8,651k7xv464x0xgf1b9');" title="Add to My Selections" data-odd="3.76" data-odd-max="4.26"></a></td>
-<td class="table-main__odds" data-oid="651k7xv464x0xgf1b9"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=pGb5xlJk&amp;outcomeid=651k7xv464x0xgf1b9&amp;otheroutcomes=651k7xv464x0xgf1b8,651k7xv498x0x0');" title="Add to My Selections" data-odd="4.76" data-odd-max="7.00"></a></td>
+<td class="table-main__odds" data-oid="651k7xv464x0xgf1b9"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=pGb5xlJk&amp;outcomeid=651k7xv464x0xgf1b9&amp;otheroutcomes=651k7xv464x0xgf1b8,651k7xv498x0x0');" title="Add to My Selections" data-odd="4.73" data-odd-max="7.00"></a></td>
 </tr>
 <tr data-dt="12,1,2023,16,45" data-def="1">
 <td class="table-main__tt"><span class="table-main__time">16:45</span><a href="/soccer/brazil/copa-sao-paulo-de-juniores/gremio-picos/4bvLcbkb/"><span>Gremio U20</span> - <span>Picos U20</span></a></td>
@@ -3307,17 +3307,17 @@ function OptanonWrapper() { }
 <td class="table-main__streams">
 </td>
 <td class="table-main__odds" data-oid="651k2xv464x0xgf1au"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=4bvLcbkb&amp;outcomeid=651k2xv464x0xgf1au&amp;otheroutcomes=651k2xv498x0x0,651k2xv464x0xgf1av');" title="Add to My Selections" data-odd="1.15" data-odd-max="1.18"></a></td>
-<td class="table-main__odds" data-oid="651k2xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=4bvLcbkb&amp;outcomeid=651k2xv498x0x0&amp;otheroutcomes=651k2xv464x0xgf1au,651k2xv464x0xgf1av');" title="Add to My Selections" data-odd="6.74" data-odd-max="7.50"></a></td>
-<td class="table-main__odds" data-oid="651k2xv464x0xgf1av"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=4bvLcbkb&amp;outcomeid=651k2xv464x0xgf1av&amp;otheroutcomes=651k2xv464x0xgf1au,651k2xv498x0x0');" title="Add to My Selections" data-odd="11.48" data-odd-max="15.00"></a></td>
+<td class="table-main__odds" data-oid="651k2xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=4bvLcbkb&amp;outcomeid=651k2xv498x0x0&amp;otheroutcomes=651k2xv464x0xgf1au,651k2xv464x0xgf1av');" title="Add to My Selections" data-odd="6.72" data-odd-max="7.50"></a></td>
+<td class="table-main__odds" data-oid="651k2xv464x0xgf1av"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=4bvLcbkb&amp;outcomeid=651k2xv464x0xgf1av&amp;otheroutcomes=651k2xv464x0xgf1au,651k2xv498x0x0');" title="Add to My Selections" data-odd="11.75" data-odd-max="15.00"></a></td>
 </tr>
 <tr data-dt="12,1,2023,16,45" data-def="1">
 <td class="table-main__tt"><span class="table-main__time">16:45</span><a href="/soccer/brazil/copa-sao-paulo-de-juniores/sport-recife-zumbi/vHWXfdZG/"><span>Sport Recife U20</span> - <span>Zumbi U20</span></a></td>
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="651k5xv464x0xgf1b4"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=vHWXfdZG&amp;outcomeid=651k5xv464x0xgf1b4&amp;otheroutcomes=651k5xv498x0x0,651k5xv464x0xgf1b5');" title="Add to My Selections" data-odd="1.29" data-odd-max="1.40"></a></td>
-<td class="table-main__odds" data-oid="651k5xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=vHWXfdZG&amp;outcomeid=651k5xv498x0x0&amp;otheroutcomes=651k5xv464x0xgf1b4,651k5xv464x0xgf1b5');" title="Add to My Selections" data-odd="4.78" data-odd-max="5.49"></a></td>
-<td class="table-main__odds" data-oid="651k5xv464x0xgf1b5"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=vHWXfdZG&amp;outcomeid=651k5xv464x0xgf1b5&amp;otheroutcomes=651k5xv464x0xgf1b4,651k5xv498x0x0');" title="Add to My Selections" data-odd="8.36" data-odd-max="11.18"></a></td>
+<td class="table-main__odds" data-oid="651k5xv464x0xgf1b4"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=vHWXfdZG&amp;outcomeid=651k5xv464x0xgf1b4&amp;otheroutcomes=651k5xv498x0x0,651k5xv464x0xgf1b5');" title="Add to My Selections" data-odd="1.25" data-odd-max="1.34"></a></td>
+<td class="table-main__odds" data-oid="651k5xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=vHWXfdZG&amp;outcomeid=651k5xv498x0x0&amp;otheroutcomes=651k5xv464x0xgf1b4,651k5xv464x0xgf1b5');" title="Add to My Selections" data-odd="5.10" data-odd-max="6.44"></a></td>
+<td class="table-main__odds" data-oid="651k5xv464x0xgf1b5"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=vHWXfdZG&amp;outcomeid=651k5xv464x0xgf1b5&amp;otheroutcomes=651k5xv464x0xgf1b4,651k5xv498x0x0');" title="Add to My Selections" data-odd="9.70" data-odd-max="15.90"></a></td>
 </tr>
 </tbody>
 <tbody data-key="86-63567">
@@ -3344,9 +3344,9 @@ function OptanonWrapper() { }
 <li><a href="/bookmaker/241/http://record.affiliatelounge.com/_PQI2ELGFWby2bnhOaaLAUmNd7ZgqdRLk/4" target="_blank" data-bookmaker-url="241">Betsson</a></li>
 </ul></div></li></ul>
 </td>
-<td class="table-main__odds" data-oid="60nc8xv464x0xg2g32"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=tfvWNdMD&amp;outcomeid=60nc8xv464x0xg2g32&amp;otheroutcomes=60nc8xv498x0x0,60nc8xv464x0xg2g31');" title="Add to My Selections" data-odd="1.82" data-odd-max="1.91"></a></td>
-<td class="table-main__odds" data-oid="60nc8xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=tfvWNdMD&amp;outcomeid=60nc8xv498x0x0&amp;otheroutcomes=60nc8xv464x0xg2g32,60nc8xv464x0xg2g31');" title="Add to My Selections" data-odd="2.94" data-odd-max="3.00"></a></td>
-<td class="table-main__odds" data-oid="60nc8xv464x0xg2g31"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=tfvWNdMD&amp;outcomeid=60nc8xv464x0xg2g31&amp;otheroutcomes=60nc8xv464x0xg2g32,60nc8xv498x0x0');" title="Add to My Selections" data-odd="4.57" data-odd-max="4.88"></a></td>
+<td class="table-main__odds" data-oid="60nc8xv464x0xg2g32"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=tfvWNdMD&amp;outcomeid=60nc8xv464x0xg2g32&amp;otheroutcomes=60nc8xv498x0x0,60nc8xv464x0xg2g31');" title="Add to My Selections" data-odd="1.81" data-odd-max="1.85"></a></td>
+<td class="table-main__odds" data-oid="60nc8xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=tfvWNdMD&amp;outcomeid=60nc8xv498x0x0&amp;otheroutcomes=60nc8xv464x0xg2g32,60nc8xv464x0xg2g31');" title="Add to My Selections" data-odd="2.95" data-odd-max="3.00"></a></td>
+<td class="table-main__odds" data-oid="60nc8xv464x0xg2g31"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=tfvWNdMD&amp;outcomeid=60nc8xv464x0xg2g31&amp;otheroutcomes=60nc8xv464x0xg2g32,60nc8xv498x0x0');" title="Add to My Selections" data-odd="4.58" data-odd-max="4.88"></a></td>
 </tr>
 </tbody>
 <tbody data-key="8-77063">
@@ -3363,8 +3363,8 @@ function OptanonWrapper() { }
 </ul></div></li></ul>
 </td>
 <td class="table-main__odds" data-oid="63827xv464x0xga0ob"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hOUBomom&amp;outcomeid=63827xv464x0xga0ob&amp;otheroutcomes=63827xv498x0x0,63827xv464x0xga0oc');" title="Add to My Selections" data-odd="2.06" data-odd-max="2.12"></a></td>
-<td class="table-main__odds" data-oid="63827xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hOUBomom&amp;outcomeid=63827xv498x0x0&amp;otheroutcomes=63827xv464x0xga0ob,63827xv464x0xga0oc');" title="Add to My Selections" data-odd="3.23" data-odd-max="3.30"></a></td>
-<td class="table-main__odds" data-oid="63827xv464x0xga0oc"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hOUBomom&amp;outcomeid=63827xv464x0xga0oc&amp;otheroutcomes=63827xv464x0xga0ob,63827xv498x0x0');" title="Add to My Selections" data-odd="3.58" data-odd-max="3.70"></a></td>
+<td class="table-main__odds" data-oid="63827xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hOUBomom&amp;outcomeid=63827xv498x0x0&amp;otheroutcomes=63827xv464x0xga0ob,63827xv464x0xga0oc');" title="Add to My Selections" data-odd="3.23" data-odd-max="3.34"></a></td>
+<td class="table-main__odds" data-oid="63827xv464x0xga0oc"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hOUBomom&amp;outcomeid=63827xv464x0xga0oc&amp;otheroutcomes=63827xv464x0xga0ob,63827xv498x0x0');" title="Add to My Selections" data-odd="3.59" data-odd-max="3.75"></a></td>
 </tr>
 </tbody>
 <tbody data-key="169-57614">
@@ -3388,7 +3388,7 @@ function OptanonWrapper() { }
 </td>
 <td class="table-main__odds" data-oid="60mujxv464x0xg2dvc"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=bXwKGvmR&amp;outcomeid=60mujxv464x0xg2dvc&amp;otheroutcomes=60mujxv498x0x0,60mujxv464x0xg2dvd');" title="Add to My Selections" data-odd="1.53" data-odd-max="1.56"></a></td>
 <td class="table-main__odds" data-oid="60mujxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=bXwKGvmR&amp;outcomeid=60mujxv498x0x0&amp;otheroutcomes=60mujxv464x0xg2dvc,60mujxv464x0xg2dvd');" title="Add to My Selections" data-odd="3.81" data-odd-max="4.00"></a></td>
-<td class="table-main__odds" data-oid="60mujxv464x0xg2dvd"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=bXwKGvmR&amp;outcomeid=60mujxv464x0xg2dvd&amp;otheroutcomes=60mujxv464x0xg2dvc,60mujxv498x0x0');" title="Add to My Selections" data-odd="5.68" data-odd-max="6.40"></a></td>
+<td class="table-main__odds" data-oid="60mujxv464x0xg2dvd"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=bXwKGvmR&amp;outcomeid=60mujxv464x0xg2dvd&amp;otheroutcomes=60mujxv464x0xg2dvc,60mujxv498x0x0');" title="Add to My Selections" data-odd="5.68" data-odd-max="6.38"></a></td>
 </tr>
 </tbody>
 <tbody data-key="98-63616">
@@ -3426,8 +3426,8 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="62cfexv464x0xg7chb"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=xp8lXJ0a&amp;outcomeid=62cfexv464x0xg7chb&amp;otheroutcomes=62cfexv498x0x0,62cfexv464x0xg7chc');" title="Add to My Selections" data-odd="6.56" data-odd-max="8.00"></a></td>
-<td class="table-main__odds" data-oid="62cfexv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=xp8lXJ0a&amp;outcomeid=62cfexv498x0x0&amp;otheroutcomes=62cfexv464x0xg7chb,62cfexv464x0xg7chc');" title="Add to My Selections" data-odd="6.99" data-odd-max="7.75"></a></td>
+<td class="table-main__odds" data-oid="62cfexv464x0xg7chb"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=xp8lXJ0a&amp;outcomeid=62cfexv464x0xg7chb&amp;otheroutcomes=62cfexv498x0x0,62cfexv464x0xg7chc');" title="Add to My Selections" data-odd="6.87" data-odd-max="8.50"></a></td>
+<td class="table-main__odds" data-oid="62cfexv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=xp8lXJ0a&amp;outcomeid=62cfexv498x0x0&amp;otheroutcomes=62cfexv464x0xg7chb,62cfexv464x0xg7chc');" title="Add to My Selections" data-odd="6.77" data-odd-max="7.56"></a></td>
 <td class="table-main__odds" data-oid="62cfexv464x0xg7chc"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=xp8lXJ0a&amp;outcomeid=62cfexv464x0xg7chc&amp;otheroutcomes=62cfexv464x0xg7chb,62cfexv498x0x0');" title="Add to My Selections" data-odd="1.24" data-odd-max="1.31"></a></td>
 </tr>
 <tr data-dt="12,1,2023,18,30" data-def="1">
@@ -3435,9 +3435,9 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="62cfdxv464x0xg7ch9"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=8A3pYaog&amp;outcomeid=62cfdxv464x0xg7ch9&amp;otheroutcomes=62cfdxv498x0x0,62cfdxv464x0xg7cha');" title="Add to My Selections" data-odd="1.15" data-odd-max="1.18"></a></td>
-<td class="table-main__odds" data-oid="62cfdxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=8A3pYaog&amp;outcomeid=62cfdxv498x0x0&amp;otheroutcomes=62cfdxv464x0xg7ch9,62cfdxv464x0xg7cha');" title="Add to My Selections" data-odd="7.31" data-odd-max="8.00"></a></td>
-<td class="table-main__odds" data-oid="62cfdxv464x0xg7cha"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=8A3pYaog&amp;outcomeid=62cfdxv464x0xg7cha&amp;otheroutcomes=62cfdxv464x0xg7ch9,62cfdxv498x0x0');" title="Add to My Selections" data-odd="11.33" data-odd-max="14.50"></a></td>
+<td class="table-main__odds" data-oid="62cfdxv464x0xg7ch9"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=8A3pYaog&amp;outcomeid=62cfdxv464x0xg7ch9&amp;otheroutcomes=62cfdxv498x0x0,62cfdxv464x0xg7cha');" title="Add to My Selections" data-odd="1.14" data-odd-max="1.18"></a></td>
+<td class="table-main__odds" data-oid="62cfdxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=8A3pYaog&amp;outcomeid=62cfdxv498x0x0&amp;otheroutcomes=62cfdxv464x0xg7ch9,62cfdxv464x0xg7cha');" title="Add to My Selections" data-odd="7.40" data-odd-max="8.00"></a></td>
+<td class="table-main__odds" data-oid="62cfdxv464x0xg7cha"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=8A3pYaog&amp;outcomeid=62cfdxv464x0xg7cha&amp;otheroutcomes=62cfdxv464x0xg7ch9,62cfdxv498x0x0');" title="Add to My Selections" data-odd="11.23" data-odd-max="14.50"></a></td>
 </tr>
 </tbody>
 <tbody data-key="139-63922">
@@ -3452,7 +3452,7 @@ function OptanonWrapper() { }
 </ul></div></li></ul>
 </td>
 <td class="table-main__odds" data-oid="60kqoxv464x0xg283d"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=tpVeOgL9&amp;outcomeid=60kqoxv464x0xg283d&amp;otheroutcomes=60kqoxv498x0x0,60kqoxv464x0xg283e');" title="Add to My Selections" data-odd="2.16" data-odd-max="2.20"></a></td>
-<td class="table-main__odds" data-oid="60kqoxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=tpVeOgL9&amp;outcomeid=60kqoxv498x0x0&amp;otheroutcomes=60kqoxv464x0xg283d,60kqoxv464x0xg283e');" title="Add to My Selections" data-odd="3.44" data-odd-max="3.60"></a></td>
+<td class="table-main__odds" data-oid="60kqoxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=tpVeOgL9&amp;outcomeid=60kqoxv498x0x0&amp;otheroutcomes=60kqoxv464x0xg283d,60kqoxv464x0xg283e');" title="Add to My Selections" data-odd="3.45" data-odd-max="3.60"></a></td>
 <td class="table-main__odds" data-oid="60kqoxv464x0xg283e"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=tpVeOgL9&amp;outcomeid=60kqoxv464x0xg283e&amp;otheroutcomes=60kqoxv464x0xg283d,60kqoxv498x0x0');" title="Add to My Selections" data-odd="3.06" data-odd-max="3.25"></a></td>
 </tr>
 </tbody>
@@ -3464,8 +3464,8 @@ function OptanonWrapper() { }
 <td class="table-main__streams">
 </td>
 <td class="table-main__odds" data-oid="63bcexv464x0xgaa7v"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=O8CqZeZc&amp;outcomeid=63bcexv464x0xgaa7v&amp;otheroutcomes=63bcexv498x0x0,63bcexv464x0xgaa7u');" title="Add to My Selections" data-odd="7.66" data-odd-max="8.50"></a></td>
-<td class="table-main__odds" data-oid="63bcexv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=O8CqZeZc&amp;outcomeid=63bcexv498x0x0&amp;otheroutcomes=63bcexv464x0xgaa7v,63bcexv464x0xgaa7u');" title="Add to My Selections" data-odd="4.07" data-odd-max="4.50"></a></td>
-<td class="table-main__odds" data-oid="63bcexv464x0xgaa7u"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=O8CqZeZc&amp;outcomeid=63bcexv464x0xgaa7u&amp;otheroutcomes=63bcexv464x0xgaa7v,63bcexv498x0x0');" title="Add to My Selections" data-odd="1.36" data-odd-max="1.44"></a></td>
+<td class="table-main__odds" data-oid="63bcexv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=O8CqZeZc&amp;outcomeid=63bcexv498x0x0&amp;otheroutcomes=63bcexv464x0xgaa7v,63bcexv464x0xgaa7u');" title="Add to My Selections" data-odd="4.06" data-odd-max="4.50"></a></td>
+<td class="table-main__odds" data-oid="63bcexv464x0xgaa7u"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=O8CqZeZc&amp;outcomeid=63bcexv464x0xgaa7u&amp;otheroutcomes=63bcexv464x0xgaa7v,63bcexv498x0x0');" title="Add to My Selections" data-odd="1.37" data-odd-max="1.44"></a></td>
 </tr>
 </tbody>
 <tbody data-key="39-63291">
@@ -3495,7 +3495,7 @@ function OptanonWrapper() { }
 </td>
 <td class="table-main__odds" data-oid="651k9xv464x0xgf1bc"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=QP6DzSm2&amp;outcomeid=651k9xv464x0xgf1bc&amp;otheroutcomes=651k9xv498x0x0,651k9xv464x0xgf1bd');" title="Add to My Selections" data-odd="2.21" data-odd-max="2.34"></a></td>
 <td class="table-main__odds" data-oid="651k9xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=QP6DzSm2&amp;outcomeid=651k9xv498x0x0&amp;otheroutcomes=651k9xv464x0xgf1bc,651k9xv464x0xgf1bd');" title="Add to My Selections" data-odd="3.23" data-odd-max="3.40"></a></td>
-<td class="table-main__odds" data-oid="651k9xv464x0xgf1bd"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=QP6DzSm2&amp;outcomeid=651k9xv464x0xgf1bd&amp;otheroutcomes=651k9xv464x0xgf1bc,651k9xv498x0x0');" title="Add to My Selections" data-odd="2.84" data-odd-max="2.99"></a></td>
+<td class="table-main__odds" data-oid="651k9xv464x0xgf1bd"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=QP6DzSm2&amp;outcomeid=651k9xv464x0xgf1bd&amp;otheroutcomes=651k9xv464x0xgf1bc,651k9xv498x0x0');" title="Add to My Selections" data-odd="2.85" data-odd-max="2.99"></a></td>
 </tr>
 <tr data-dt="12,1,2023,19,00" data-def="1">
 <td class="table-main__tt"><span class="table-main__time">19:00</span><a href="/soccer/brazil/copa-sao-paulo-de-juniores/tanabi-chapecoense-sc/zNl6tcKN/"><span>Tanabi U20</span> - <span>Chapecoense-SC U20</span></a></td>
@@ -3530,9 +3530,9 @@ function OptanonWrapper() { }
 <li><a href="/bookmaker/11/http://www.bet365.com/olp/open-account?affiliate=365_021894" target="_blank" data-bookmaker-url="11">bet365</a></li>
 </ul></div></li></ul>
 </td>
-<td class="table-main__odds" data-oid="63828xv464x0xga0od"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=zmKGp70g&amp;outcomeid=63828xv464x0xga0od&amp;otheroutcomes=63828xv498x0x0,63828xv464x0xga0oe');" title="Add to My Selections" data-odd="1.66" data-odd-max="1.72"></a></td>
-<td class="table-main__odds" data-oid="63828xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=zmKGp70g&amp;outcomeid=63828xv498x0x0&amp;otheroutcomes=63828xv464x0xga0od,63828xv464x0xga0oe');" title="Add to My Selections" data-odd="3.54" data-odd-max="3.70"></a></td>
-<td class="table-main__odds" data-oid="63828xv464x0xga0oe"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=zmKGp70g&amp;outcomeid=63828xv464x0xga0oe&amp;otheroutcomes=63828xv464x0xga0od,63828xv498x0x0');" title="Add to My Selections" data-odd="5.35" data-odd-max="5.70"></a></td>
+<td class="table-main__odds" data-oid="63828xv464x0xga0od"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=zmKGp70g&amp;outcomeid=63828xv464x0xga0od&amp;otheroutcomes=63828xv498x0x0,63828xv464x0xga0oe');" title="Add to My Selections" data-odd="1.67" data-odd-max="1.72"></a></td>
+<td class="table-main__odds" data-oid="63828xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=zmKGp70g&amp;outcomeid=63828xv498x0x0&amp;otheroutcomes=63828xv464x0xga0od,63828xv464x0xga0oe');" title="Add to My Selections" data-odd="3.53" data-odd-max="3.70"></a></td>
+<td class="table-main__odds" data-oid="63828xv464x0xga0oe"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=zmKGp70g&amp;outcomeid=63828xv464x0xga0oe&amp;otheroutcomes=63828xv464x0xga0od,63828xv498x0x0');" title="Add to My Selections" data-odd="5.32" data-odd-max="5.70"></a></td>
 </tr>
 </tbody>
 <tbody data-key="39-63329">
@@ -3543,8 +3543,8 @@ function OptanonWrapper() { }
 <td class="table-main__streams">
 </td>
 <td class="table-main__odds" data-oid="6282cxv464x0xg70r6"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=bLT3hAK2&amp;outcomeid=6282cxv464x0xg70r6&amp;otheroutcomes=6282cxv498x0x0,6282cxv464x0xg70r7');" title="Add to My Selections" data-odd="1.93" data-odd-max="2.00"></a></td>
-<td class="table-main__odds" data-oid="6282cxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=bLT3hAK2&amp;outcomeid=6282cxv498x0x0&amp;otheroutcomes=6282cxv464x0xg70r6,6282cxv464x0xg70r7');" title="Add to My Selections" data-odd="2.97" data-odd-max="3.08"></a></td>
-<td class="table-main__odds" data-oid="6282cxv464x0xg70r7"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=bLT3hAK2&amp;outcomeid=6282cxv464x0xg70r7&amp;otheroutcomes=6282cxv464x0xg70r6,6282cxv498x0x0');" title="Add to My Selections" data-odd="3.98" data-odd-max="4.20"></a></td>
+<td class="table-main__odds" data-oid="6282cxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=bLT3hAK2&amp;outcomeid=6282cxv498x0x0&amp;otheroutcomes=6282cxv464x0xg70r6,6282cxv464x0xg70r7');" title="Add to My Selections" data-odd="2.97" data-odd-max="3.06"></a></td>
+<td class="table-main__odds" data-oid="6282cxv464x0xg70r7"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=bLT3hAK2&amp;outcomeid=6282cxv464x0xg70r7&amp;otheroutcomes=6282cxv464x0xg70r6,6282cxv498x0x0');" title="Add to My Selections" data-odd="3.97" data-odd-max="4.20"></a></td>
 </tr>
 </tbody>
 <tbody data-key="39-63327">
@@ -3554,8 +3554,8 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="62a5axv464x0xg76va"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=fiVP7Ll9&amp;outcomeid=62a5axv464x0xg76va&amp;otheroutcomes=62a5axv498x0x0,62a5axv464x0xg76vb');" title="Add to My Selections" data-odd="5.98" data-odd-max="7.00"></a></td>
-<td class="table-main__odds" data-oid="62a5axv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=fiVP7Ll9&amp;outcomeid=62a5axv498x0x0&amp;otheroutcomes=62a5axv464x0xg76va,62a5axv464x0xg76vb');" title="Add to My Selections" data-odd="3.97" data-odd-max="4.20"></a></td>
+<td class="table-main__odds" data-oid="62a5axv464x0xg76va"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=fiVP7Ll9&amp;outcomeid=62a5axv464x0xg76va&amp;otheroutcomes=62a5axv498x0x0,62a5axv464x0xg76vb');" title="Add to My Selections" data-odd="5.86" data-odd-max="7.00"></a></td>
+<td class="table-main__odds" data-oid="62a5axv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=fiVP7Ll9&amp;outcomeid=62a5axv498x0x0&amp;otheroutcomes=62a5axv464x0xg76va,62a5axv464x0xg76vb');" title="Add to My Selections" data-odd="3.96" data-odd-max="4.20"></a></td>
 <td class="table-main__odds" data-oid="62a5axv464x0xg76vb"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=fiVP7Ll9&amp;outcomeid=62a5axv464x0xg76vb&amp;otheroutcomes=62a5axv464x0xg76va,62a5axv498x0x0');" title="Add to My Selections" data-odd="1.44" data-odd-max="1.50"></a></td>
 </tr>
 </tbody>
@@ -3566,8 +3566,8 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="60kqhxv464x0xg282v"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=p6DPL0aB&amp;outcomeid=60kqhxv464x0xg282v&amp;otheroutcomes=60kqhxv498x0x0,60kqhxv464x0xg2830');" title="Add to My Selections" data-odd="17.43" data-odd-max="21.00"></a></td>
-<td class="table-main__odds" data-oid="60kqhxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=p6DPL0aB&amp;outcomeid=60kqhxv498x0x0&amp;otheroutcomes=60kqhxv464x0xg282v,60kqhxv464x0xg2830');" title="Add to My Selections" data-odd="8.68" data-odd-max="9.50"></a></td>
+<td class="table-main__odds" data-oid="60kqhxv464x0xg282v"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=p6DPL0aB&amp;outcomeid=60kqhxv464x0xg282v&amp;otheroutcomes=60kqhxv498x0x0,60kqhxv464x0xg2830');" title="Add to My Selections" data-odd="17.20" data-odd-max="21.00"></a></td>
+<td class="table-main__odds" data-oid="60kqhxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=p6DPL0aB&amp;outcomeid=60kqhxv498x0x0&amp;otheroutcomes=60kqhxv464x0xg282v,60kqhxv464x0xg2830');" title="Add to My Selections" data-odd="8.63" data-odd-max="9.50"></a></td>
 <td class="table-main__odds" data-oid="60kqhxv464x0xg2830"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=p6DPL0aB&amp;outcomeid=60kqhxv464x0xg2830&amp;otheroutcomes=60kqhxv464x0xg282v,60kqhxv498x0x0');" title="Add to My Selections" data-odd="1.11" data-odd-max="1.14"></a></td>
 </tr>
 <tr data-dt="12,1,2023,20,00" data-def="1">
@@ -3576,8 +3576,8 @@ function OptanonWrapper() { }
 <td class="table-main__streams">
 </td>
 <td class="table-main__odds" data-oid="60kqkxv464x0xg2835"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YTU12Cbj&amp;outcomeid=60kqkxv464x0xg2835&amp;otheroutcomes=60kqkxv498x0x0,60kqkxv464x0xg2836');" title="Add to My Selections" data-odd="1.28" data-odd-max="1.31"></a></td>
-<td class="table-main__odds" data-oid="60kqkxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YTU12Cbj&amp;outcomeid=60kqkxv498x0x0&amp;otheroutcomes=60kqkxv464x0xg2835,60kqkxv464x0xg2836');" title="Add to My Selections" data-odd="5.27" data-odd-max="5.75"></a></td>
-<td class="table-main__odds" data-oid="60kqkxv464x0xg2836"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YTU12Cbj&amp;outcomeid=60kqkxv464x0xg2836&amp;otheroutcomes=60kqkxv464x0xg2835,60kqkxv498x0x0');" title="Add to My Selections" data-odd="9.15" data-odd-max="11.00"></a></td>
+<td class="table-main__odds" data-oid="60kqkxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YTU12Cbj&amp;outcomeid=60kqkxv498x0x0&amp;otheroutcomes=60kqkxv464x0xg2835,60kqkxv464x0xg2836');" title="Add to My Selections" data-odd="5.26" data-odd-max="5.75"></a></td>
+<td class="table-main__odds" data-oid="60kqkxv464x0xg2836"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YTU12Cbj&amp;outcomeid=60kqkxv464x0xg2836&amp;otheroutcomes=60kqkxv464x0xg2835,60kqkxv498x0x0');" title="Add to My Selections" data-odd="9.10" data-odd-max="11.00"></a></td>
 </tr>
 <tr data-dt="12,1,2023,20,00" data-def="1">
 <td class="table-main__tt"><span class="table-main__time">20:00</span><a href="/soccer/netherlands/knvb-beker/urk-katwijk/WEm51WDd/"><span>Urk</span> - <span>Katwijk</span></a></td>
@@ -3600,8 +3600,8 @@ function OptanonWrapper() { }
 <li><a href="/bookmaker/11/http://www.bet365.com/olp/open-account?affiliate=365_021894" target="_blank" data-bookmaker-url="11">bet365</a></li>
 </ul></div></li></ul>
 </td>
-<td class="table-main__odds" data-oid="5ka8sxv464x0xf1gvn"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YLr8vbJA&amp;outcomeid=5ka8sxv464x0xf1gvn&amp;otheroutcomes=5ka8sxv498x0x0,5ka8sxv464x0xf1gvo');" title="Add to My Selections" data-odd="6.36" data-odd-max="6.75"></a></td>
-<td class="table-main__odds" data-oid="5ka8sxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YLr8vbJA&amp;outcomeid=5ka8sxv498x0x0&amp;otheroutcomes=5ka8sxv464x0xf1gvn,5ka8sxv464x0xf1gvo');" title="Add to My Selections" data-odd="4.64" data-odd-max="4.84"></a></td>
+<td class="table-main__odds" data-oid="5ka8sxv464x0xf1gvn"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YLr8vbJA&amp;outcomeid=5ka8sxv464x0xf1gvn&amp;otheroutcomes=5ka8sxv498x0x0,5ka8sxv464x0xf1gvo');" title="Add to My Selections" data-odd="6.38" data-odd-max="6.75"></a></td>
+<td class="table-main__odds" data-oid="5ka8sxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YLr8vbJA&amp;outcomeid=5ka8sxv498x0x0&amp;otheroutcomes=5ka8sxv464x0xf1gvn,5ka8sxv464x0xf1gvo');" title="Add to My Selections" data-odd="4.63" data-odd-max="4.84"></a></td>
 <td class="table-main__odds" data-oid="5ka8sxv464x0xf1gvo"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YLr8vbJA&amp;outcomeid=5ka8sxv464x0xf1gvo&amp;otheroutcomes=5ka8sxv464x0xf1gvn,5ka8sxv498x0x0');" title="Add to My Selections" data-odd="1.47" data-odd-max="1.52"></a></td>
 </tr>
 </tbody>
@@ -3614,7 +3614,7 @@ function OptanonWrapper() { }
 </td>
 <td class="table-main__odds" data-oid="62ec3xv464x0xg7j76"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=df4yjmCr&amp;outcomeid=62ec3xv464x0xg7j76&amp;otheroutcomes=62ec3xv498x0x0,62ec3xv464x0xg7j77');" title="Add to My Selections" data-odd="1.61" data-odd-max="1.72"></a></td>
 <td class="table-main__odds" data-oid="62ec3xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=df4yjmCr&amp;outcomeid=62ec3xv498x0x0&amp;otheroutcomes=62ec3xv464x0xg7j76,62ec3xv464x0xg7j77');" title="Add to My Selections" data-odd="3.83" data-odd-max="4.05"></a></td>
-<td class="table-main__odds" data-oid="62ec3xv464x0xg7j77"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=df4yjmCr&amp;outcomeid=62ec3xv464x0xg7j77&amp;otheroutcomes=62ec3xv464x0xg7j76,62ec3xv498x0x0');" title="Add to My Selections" data-odd="4.33" data-odd-max="4.86"></a></td>
+<td class="table-main__odds" data-oid="62ec3xv464x0xg7j77"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=df4yjmCr&amp;outcomeid=62ec3xv464x0xg7j77&amp;otheroutcomes=62ec3xv464x0xg7j76,62ec3xv498x0x0');" title="Add to My Selections" data-odd="4.34" data-odd-max="4.86"></a></td>
 </tr>
 </tbody>
 <tbody data-key="32-63131">
@@ -3630,7 +3630,7 @@ function OptanonWrapper() { }
 </ul></div></li></ul>
 </td>
 <td class="table-main__odds" data-oid="6402nxv464x0xgc685"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=O0zJU7GG&amp;outcomeid=6402nxv464x0xgc685&amp;otheroutcomes=6402nxv498x0x0,6402nxv464x0xgc686');" title="Add to My Selections" data-odd="2.10" data-odd-max="2.15"></a></td>
-<td class="table-main__odds" data-oid="6402nxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=O0zJU7GG&amp;outcomeid=6402nxv498x0x0&amp;otheroutcomes=6402nxv464x0xgc685,6402nxv464x0xgc686');" title="Add to My Selections" data-odd="3.40" data-odd-max="3.63"></a></td>
+<td class="table-main__odds" data-oid="6402nxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=O0zJU7GG&amp;outcomeid=6402nxv498x0x0&amp;otheroutcomes=6402nxv464x0xgc685,6402nxv464x0xgc686');" title="Add to My Selections" data-odd="3.40" data-odd-max="3.62"></a></td>
 <td class="table-main__odds" data-oid="6402nxv464x0xgc686"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=O0zJU7GG&amp;outcomeid=6402nxv464x0xgc686&amp;otheroutcomes=6402nxv464x0xgc685,6402nxv498x0x0');" title="Add to My Selections" data-odd="3.25" data-odd-max="3.46"></a></td>
 </tr>
 </tbody>
@@ -3657,9 +3657,9 @@ function OptanonWrapper() { }
 <li><a href="/bookmaker/1039/http://refparrknf.top/L?tag=s_144205m_355c_&amp;site=144205&amp;ad=355" target="_blank" data-bookmaker-url="1039">1xBet</a></li>
 </ul></div></li></ul>
 </td>
-<td class="table-main__odds" data-oid="5kppdxv464x0xf2snf"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=fRc3vCHs&amp;outcomeid=5kppdxv464x0xf2snf&amp;otheroutcomes=5kppdxv498x0x0,5kppdxv464x0xf2sng');" title="Add to My Selections" data-odd="3.58" data-odd-max="3.70"></a></td>
-<td class="table-main__odds" data-oid="5kppdxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=fRc3vCHs&amp;outcomeid=5kppdxv498x0x0&amp;otheroutcomes=5kppdxv464x0xf2snf,5kppdxv464x0xf2sng');" title="Add to My Selections" data-odd="3.47" data-odd-max="3.70"></a></td>
-<td class="table-main__odds" data-oid="5kppdxv464x0xf2sng"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=fRc3vCHs&amp;outcomeid=5kppdxv464x0xf2sng&amp;otheroutcomes=5kppdxv464x0xf2snf,5kppdxv498x0x0');" title="Add to My Selections" data-odd="2.10" data-odd-max="2.15"></a></td>
+<td class="table-main__odds" data-oid="5kppdxv464x0xf2snf"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=fRc3vCHs&amp;outcomeid=5kppdxv464x0xf2snf&amp;otheroutcomes=5kppdxv498x0x0,5kppdxv464x0xf2sng');" title="Add to My Selections" data-odd="3.64" data-odd-max="3.77"></a></td>
+<td class="table-main__odds" data-oid="5kppdxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=fRc3vCHs&amp;outcomeid=5kppdxv498x0x0&amp;otheroutcomes=5kppdxv464x0xf2snf,5kppdxv464x0xf2sng');" title="Add to My Selections" data-odd="3.46" data-odd-max="3.65"></a></td>
+<td class="table-main__odds" data-oid="5kppdxv464x0xf2sng"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=fRc3vCHs&amp;outcomeid=5kppdxv464x0xf2sng&amp;otheroutcomes=5kppdxv464x0xf2snf,5kppdxv498x0x0');" title="Add to My Selections" data-odd="2.09" data-odd-max="2.15"></a></td>
 </tr>
 </tbody>
 <tbody data-key="98-63616">
@@ -3690,8 +3690,8 @@ function OptanonWrapper() { }
 </ul></div></li></ul>
 </td>
 <td class="table-main__odds" data-oid="60kqsxv464x0xg283l"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YsAzHBDq&amp;outcomeid=60kqsxv464x0xg283l&amp;otheroutcomes=60kqsxv498x0x0,60kqsxv464x0xg283m');" title="Add to My Selections" data-odd="1.29" data-odd-max="1.35"></a></td>
-<td class="table-main__odds" data-oid="60kqsxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YsAzHBDq&amp;outcomeid=60kqsxv498x0x0&amp;otheroutcomes=60kqsxv464x0xg283l,60kqsxv464x0xg283m');" title="Add to My Selections" data-odd="5.50" data-odd-max="6.50"></a></td>
-<td class="table-main__odds" data-oid="60kqsxv464x0xg283m"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YsAzHBDq&amp;outcomeid=60kqsxv464x0xg283m&amp;otheroutcomes=60kqsxv464x0xg283l,60kqsxv498x0x0');" title="Add to My Selections" data-odd="8.38" data-odd-max="10.00"></a></td>
+<td class="table-main__odds" data-oid="60kqsxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YsAzHBDq&amp;outcomeid=60kqsxv498x0x0&amp;otheroutcomes=60kqsxv464x0xg283l,60kqsxv464x0xg283m');" title="Add to My Selections" data-odd="5.51" data-odd-max="6.50"></a></td>
+<td class="table-main__odds" data-oid="60kqsxv464x0xg283m"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YsAzHBDq&amp;outcomeid=60kqsxv464x0xg283m&amp;otheroutcomes=60kqsxv464x0xg283l,60kqsxv498x0x0');" title="Add to My Selections" data-odd="8.42" data-odd-max="10.00"></a></td>
 </tr>
 </tbody>
 <tbody data-key="39-63291">
@@ -3701,18 +3701,18 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="651k1xv464x0xgf1as"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=AyuHbvzh&amp;outcomeid=651k1xv464x0xgf1as&amp;otheroutcomes=651k1xv498x0x0,651k1xv464x0xgf1at');" title="Add to My Selections" data-odd="1.75" data-odd-max="1.84"></a></td>
+<td class="table-main__odds" data-oid="651k1xv464x0xgf1as"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=AyuHbvzh&amp;outcomeid=651k1xv464x0xgf1as&amp;otheroutcomes=651k1xv498x0x0,651k1xv464x0xgf1at');" title="Add to My Selections" data-odd="1.76" data-odd-max="1.84"></a></td>
 <td class="table-main__odds" data-oid="651k1xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=AyuHbvzh&amp;outcomeid=651k1xv498x0x0&amp;otheroutcomes=651k1xv464x0xgf1as,651k1xv464x0xgf1at');" title="Add to My Selections" data-odd="3.56" data-odd-max="3.80"></a></td>
-<td class="table-main__odds" data-oid="651k1xv464x0xgf1at"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=AyuHbvzh&amp;outcomeid=651k1xv464x0xgf1at&amp;otheroutcomes=651k1xv464x0xgf1as,651k1xv498x0x0');" title="Add to My Selections" data-odd="3.83" data-odd-max="4.20"></a></td>
+<td class="table-main__odds" data-oid="651k1xv464x0xgf1at"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=AyuHbvzh&amp;outcomeid=651k1xv464x0xgf1at&amp;otheroutcomes=651k1xv464x0xgf1as,651k1xv498x0x0');" title="Add to My Selections" data-odd="3.82" data-odd-max="4.20"></a></td>
 </tr>
 <tr data-dt="12,1,2023,21,15" data-def="1">
 <td class="table-main__tt"><span class="table-main__time">21:15</span><a href="/soccer/brazil/copa-sao-paulo-de-juniores/palmeiras-sampaio-correa/YFTQ3RCt/"><span>Palmeiras U20</span> - <span>Sampaio Correa U20</span></a></td>
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="65395xv464x0xgf647"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YFTQ3RCt&amp;outcomeid=65395xv464x0xgf647&amp;otheroutcomes=65395xv498x0x0,65395xv464x0xgf648');" title="Add to My Selections" data-odd="1.07" data-odd-max="1.10"></a></td>
-<td class="table-main__odds" data-oid="65395xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YFTQ3RCt&amp;outcomeid=65395xv498x0x0&amp;otheroutcomes=65395xv464x0xgf647,65395xv464x0xgf648');" title="Add to My Selections" data-odd="8.47" data-odd-max="9.50"></a></td>
-<td class="table-main__odds" data-oid="65395xv464x0xgf648"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YFTQ3RCt&amp;outcomeid=65395xv464x0xgf648&amp;otheroutcomes=65395xv464x0xgf647,65395xv498x0x0');" title="Add to My Selections" data-odd="22.22" data-odd-max="29.00"></a></td>
+<td class="table-main__odds" data-oid="65395xv464x0xgf647"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YFTQ3RCt&amp;outcomeid=65395xv464x0xgf647&amp;otheroutcomes=65395xv498x0x0,65395xv464x0xgf648');" title="Add to My Selections" data-odd="1.07" data-odd-max="1.09"></a></td>
+<td class="table-main__odds" data-oid="65395xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YFTQ3RCt&amp;outcomeid=65395xv498x0x0&amp;otheroutcomes=65395xv464x0xgf647,65395xv464x0xgf648');" title="Add to My Selections" data-odd="8.62" data-odd-max="9.50"></a></td>
+<td class="table-main__odds" data-oid="65395xv464x0xgf648"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YFTQ3RCt&amp;outcomeid=65395xv464x0xgf648&amp;otheroutcomes=65395xv464x0xgf647,65395xv498x0x0');" title="Add to My Selections" data-odd="22.47" data-odd-max="29.00"></a></td>
 </tr>
 </tbody>
 <tbody data-key="8-77062">
@@ -3727,7 +3727,7 @@ function OptanonWrapper() { }
 </ul></div></li></ul>
 </td>
 <td class="table-main__odds" data-oid="64qanxv464x0xgeeo7"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=MNQdROaf&amp;outcomeid=64qanxv464x0xgeeo7&amp;otheroutcomes=64qanxv498x0x0,64qanxv464x0xgeeo8');" title="Add to My Selections" data-odd="1.58" data-odd-max="1.64"></a></td>
-<td class="table-main__odds" data-oid="64qanxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=MNQdROaf&amp;outcomeid=64qanxv498x0x0&amp;otheroutcomes=64qanxv464x0xgeeo7,64qanxv464x0xgeeo8');" title="Add to My Selections" data-odd="3.77" data-odd-max="4.16"></a></td>
+<td class="table-main__odds" data-oid="64qanxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=MNQdROaf&amp;outcomeid=64qanxv498x0x0&amp;otheroutcomes=64qanxv464x0xgeeo7,64qanxv464x0xgeeo8');" title="Add to My Selections" data-odd="3.76" data-odd-max="4.16"></a></td>
 <td class="table-main__odds" data-oid="64qanxv464x0xgeeo8"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=MNQdROaf&amp;outcomeid=64qanxv464x0xgeeo8&amp;otheroutcomes=64qanxv464x0xgeeo7,64qanxv498x0x0');" title="Add to My Selections" data-odd="4.95" data-odd-max="6.25"></a></td>
 </tr>
 </tbody>
@@ -3738,9 +3738,9 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="62a59xv464x0xg76v8"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=0UVL81Z2&amp;outcomeid=62a59xv464x0xg76v8&amp;otheroutcomes=62a59xv498x0x0,62a59xv464x0xg76v9');" title="Add to My Selections" data-odd="2.78" data-odd-max="3.00"></a></td>
-<td class="table-main__odds" data-oid="62a59xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=0UVL81Z2&amp;outcomeid=62a59xv498x0x0&amp;otheroutcomes=62a59xv464x0xg76v8,62a59xv464x0xg76v9');" title="Add to My Selections" data-odd="2.99" data-odd-max="3.10"></a></td>
-<td class="table-main__odds" data-oid="62a59xv464x0xg76v9"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=0UVL81Z2&amp;outcomeid=62a59xv464x0xg76v9&amp;otheroutcomes=62a59xv464x0xg76v8,62a59xv498x0x0');" title="Add to My Selections" data-odd="2.35" data-odd-max="2.55"></a></td>
+<td class="table-main__odds" data-oid="62a59xv464x0xg76v8"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=0UVL81Z2&amp;outcomeid=62a59xv464x0xg76v8&amp;otheroutcomes=62a59xv498x0x0,62a59xv464x0xg76v9');" title="Add to My Selections" data-odd="2.77" data-odd-max="3.00"></a></td>
+<td class="table-main__odds" data-oid="62a59xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=0UVL81Z2&amp;outcomeid=62a59xv498x0x0&amp;otheroutcomes=62a59xv464x0xg76v8,62a59xv464x0xg76v9');" title="Add to My Selections" data-odd="2.97" data-odd-max="3.10"></a></td>
+<td class="table-main__odds" data-oid="62a59xv464x0xg76v9"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=0UVL81Z2&amp;outcomeid=62a59xv464x0xg76v9&amp;otheroutcomes=62a59xv464x0xg76v8,62a59xv498x0x0');" title="Add to My Selections" data-odd="2.36" data-odd-max="2.55"></a></td>
 </tr>
 </tbody>
 <tbody data-key="39-63291">
@@ -3750,18 +3750,18 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="651k0xv464x0xgf1aq"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=WptDaKKo&amp;outcomeid=651k0xv464x0xgf1aq&amp;otheroutcomes=651k0xv498x0x0,651k0xv464x0xgf1ar');" title="Add to My Selections" data-odd="3.00" data-odd-max="3.10"></a></td>
+<td class="table-main__odds" data-oid="651k0xv464x0xgf1aq"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=WptDaKKo&amp;outcomeid=651k0xv464x0xgf1aq&amp;otheroutcomes=651k0xv498x0x0,651k0xv464x0xgf1ar');" title="Add to My Selections" data-odd="2.98" data-odd-max="3.10"></a></td>
 <td class="table-main__odds" data-oid="651k0xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=WptDaKKo&amp;outcomeid=651k0xv498x0x0&amp;otheroutcomes=651k0xv464x0xgf1aq,651k0xv464x0xgf1ar');" title="Add to My Selections" data-odd="3.03" data-odd-max="3.20"></a></td>
-<td class="table-main__odds" data-oid="651k0xv464x0xgf1ar"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=WptDaKKo&amp;outcomeid=651k0xv464x0xgf1ar&amp;otheroutcomes=651k0xv464x0xgf1aq,651k0xv498x0x0');" title="Add to My Selections" data-odd="2.23" data-odd-max="2.42"></a></td>
+<td class="table-main__odds" data-oid="651k0xv464x0xgf1ar"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=WptDaKKo&amp;outcomeid=651k0xv464x0xgf1ar&amp;otheroutcomes=651k0xv464x0xgf1aq,651k0xv498x0x0');" title="Add to My Selections" data-odd="2.24" data-odd-max="2.45"></a></td>
 </tr>
 <tr data-dt="12,1,2023,23,00" data-def="1">
 <td class="table-main__tt"><span class="table-main__time">23:00</span><a href="/soccer/brazil/copa-sao-paulo-de-juniores/mirassol-real-ariquemes/UqlAuHZT/"><span>Mirassol U20</span> - <span>Real Ariquemes U20</span></a></td>
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="651juxv464x0xgf1am"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=UqlAuHZT&amp;outcomeid=651juxv464x0xgf1am&amp;otheroutcomes=651juxv498x0x0,651juxv464x0xgf1an');" title="Add to My Selections" data-odd="1.62" data-odd-max="1.68"></a></td>
-<td class="table-main__odds" data-oid="651juxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=UqlAuHZT&amp;outcomeid=651juxv498x0x0&amp;otheroutcomes=651juxv464x0xgf1am,651juxv464x0xgf1an');" title="Add to My Selections" data-odd="3.57" data-odd-max="3.75"></a></td>
-<td class="table-main__odds" data-oid="651juxv464x0xgf1an"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=UqlAuHZT&amp;outcomeid=651juxv464x0xgf1an&amp;otheroutcomes=651juxv464x0xgf1am,651juxv498x0x0');" title="Add to My Selections" data-odd="4.57" data-odd-max="5.05"></a></td>
+<td class="table-main__odds" data-oid="651juxv464x0xgf1am"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=UqlAuHZT&amp;outcomeid=651juxv464x0xgf1am&amp;otheroutcomes=651juxv498x0x0,651juxv464x0xgf1an');" title="Add to My Selections" data-odd="1.63" data-odd-max="1.68"></a></td>
+<td class="table-main__odds" data-oid="651juxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=UqlAuHZT&amp;outcomeid=651juxv498x0x0&amp;otheroutcomes=651juxv464x0xgf1am,651juxv464x0xgf1an');" title="Add to My Selections" data-odd="3.58" data-odd-max="3.75"></a></td>
+<td class="table-main__odds" data-oid="651juxv464x0xgf1an"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=UqlAuHZT&amp;outcomeid=651juxv464x0xgf1an&amp;otheroutcomes=651juxv464x0xgf1am,651juxv498x0x0');" title="Add to My Selections" data-odd="4.54" data-odd-max="5.05"></a></td>
 </tr>
 </tbody>
 <tbody data-key="39-63349">
@@ -3783,8 +3783,8 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="6282fxv464x0xg70rc"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=pxWFk84L&amp;outcomeid=6282fxv464x0xg70rc&amp;otheroutcomes=6282fxv498x0x0,6282fxv464x0xg70rd');" title="Add to My Selections" data-odd="7.01" data-odd-max="7.80"></a></td>
-<td class="table-main__odds" data-oid="6282fxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=pxWFk84L&amp;outcomeid=6282fxv498x0x0&amp;otheroutcomes=6282fxv464x0xg70rc,6282fxv464x0xg70rd');" title="Add to My Selections" data-odd="3.50" data-odd-max="3.75"></a></td>
+<td class="table-main__odds" data-oid="6282fxv464x0xg70rc"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=pxWFk84L&amp;outcomeid=6282fxv464x0xg70rc&amp;otheroutcomes=6282fxv498x0x0,6282fxv464x0xg70rd');" title="Add to My Selections" data-odd="6.99" data-odd-max="7.80"></a></td>
+<td class="table-main__odds" data-oid="6282fxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=pxWFk84L&amp;outcomeid=6282fxv498x0x0&amp;otheroutcomes=6282fxv464x0xg70rc,6282fxv464x0xg70rd');" title="Add to My Selections" data-odd="3.51" data-odd-max="3.75"></a></td>
 <td class="table-main__odds" data-oid="6282fxv464x0xg70rd"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=pxWFk84L&amp;outcomeid=6282fxv464x0xg70rd&amp;otheroutcomes=6282fxv464x0xg70rc,6282fxv498x0x0');" title="Add to My Selections" data-odd="1.47" data-odd-max="1.53"></a></td>
 </tr>
 </tbody>
@@ -3796,17 +3796,17 @@ function OptanonWrapper() { }
 <td class="table-main__streams">
 </td>
 <td class="table-main__odds" data-oid="651jvxv464x0xgf1ao"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=Whzxyyro&amp;outcomeid=651jvxv464x0xgf1ao&amp;otheroutcomes=651jvxv498x0x0,651jvxv464x0xgf1ap');" title="Add to My Selections" data-odd="1.75" data-odd-max="1.80"></a></td>
-<td class="table-main__odds" data-oid="651jvxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=Whzxyyro&amp;outcomeid=651jvxv498x0x0&amp;otheroutcomes=651jvxv464x0xgf1ao,651jvxv464x0xgf1ap');" title="Add to My Selections" data-odd="3.39" data-odd-max="3.52"></a></td>
-<td class="table-main__odds" data-oid="651jvxv464x0xgf1ap"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=Whzxyyro&amp;outcomeid=651jvxv464x0xgf1ap&amp;otheroutcomes=651jvxv464x0xgf1ao,651jvxv498x0x0');" title="Add to My Selections" data-odd="3.96" data-odd-max="4.24"></a></td>
+<td class="table-main__odds" data-oid="651jvxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=Whzxyyro&amp;outcomeid=651jvxv498x0x0&amp;otheroutcomes=651jvxv464x0xgf1ao,651jvxv464x0xgf1ap');" title="Add to My Selections" data-odd="3.40" data-odd-max="3.52"></a></td>
+<td class="table-main__odds" data-oid="651jvxv464x0xgf1ap"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=Whzxyyro&amp;outcomeid=651jvxv464x0xgf1ap&amp;otheroutcomes=651jvxv464x0xgf1ao,651jvxv498x0x0');" title="Add to My Selections" data-odd="3.98" data-odd-max="4.24"></a></td>
 </tr>
 <tr data-dt="12,1,2023,23,30" data-def="1">
 <td class="table-main__tt"><span class="table-main__time">23:30</span><a href="/soccer/brazil/copa-sao-paulo-de-juniores/atletico-go-juazeirense/SxTU2oSn/"><span>Atletico GO U20</span> - <span>Juazeirense U20</span></a></td>
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="65396xv464x0xgf649"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=SxTU2oSn&amp;outcomeid=65396xv464x0xgf649&amp;otheroutcomes=65396xv498x0x0,65396xv464x0xgf64a');" title="Add to My Selections" data-odd="1.56" data-odd-max="1.67"></a></td>
-<td class="table-main__odds" data-oid="65396xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=SxTU2oSn&amp;outcomeid=65396xv498x0x0&amp;otheroutcomes=65396xv464x0xgf649,65396xv464x0xgf64a');" title="Add to My Selections" data-odd="3.75" data-odd-max="4.00"></a></td>
-<td class="table-main__odds" data-oid="65396xv464x0xgf64a"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=SxTU2oSn&amp;outcomeid=65396xv464x0xgf64a&amp;otheroutcomes=65396xv464x0xgf649,65396xv498x0x0');" title="Add to My Selections" data-odd="4.92" data-odd-max="5.39"></a></td>
+<td class="table-main__odds" data-oid="65396xv464x0xgf649"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=SxTU2oSn&amp;outcomeid=65396xv464x0xgf649&amp;otheroutcomes=65396xv498x0x0,65396xv464x0xgf64a');" title="Add to My Selections" data-odd="1.55" data-odd-max="1.60"></a></td>
+<td class="table-main__odds" data-oid="65396xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=SxTU2oSn&amp;outcomeid=65396xv498x0x0&amp;otheroutcomes=65396xv464x0xgf649,65396xv464x0xgf64a');" title="Add to My Selections" data-odd="3.71" data-odd-max="3.97"></a></td>
+<td class="table-main__odds" data-oid="65396xv464x0xgf64a"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=SxTU2oSn&amp;outcomeid=65396xv464x0xgf64a&amp;otheroutcomes=65396xv464x0xgf649,65396xv498x0x0');" title="Add to My Selections" data-odd="5.12" data-odd-max="5.39"></a></td>
 </tr>
 </tbody>
 <tbody data-key="39-63317">
@@ -3858,7 +3858,7 @@ function OptanonWrapper() { }
 </td>
 <td class="table-main__odds" data-oid="6282exv464x0xg70ra"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=6oXBjlkF&amp;outcomeid=6282exv464x0xg70ra&amp;otheroutcomes=6282exv498x0x0,6282exv464x0xg70rb');" title="Add to My Selections" data-odd="1.57" data-odd-max="1.63"></a></td>
 <td class="table-main__odds" data-oid="6282exv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=6oXBjlkF&amp;outcomeid=6282exv498x0x0&amp;otheroutcomes=6282exv464x0xg70ra,6282exv464x0xg70rb');" title="Add to My Selections" data-odd="3.37" data-odd-max="3.50"></a></td>
-<td class="table-main__odds" data-oid="6282exv464x0xg70rb"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=6oXBjlkF&amp;outcomeid=6282exv464x0xg70rb&amp;otheroutcomes=6282exv464x0xg70ra,6282exv498x0x0');" title="Add to My Selections" data-odd="5.69" data-odd-max="6.13"></a></td>
+<td class="table-main__odds" data-oid="6282exv464x0xg70rb"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=6oXBjlkF&amp;outcomeid=6282exv464x0xg70rb&amp;otheroutcomes=6282exv464x0xg70ra,6282exv498x0x0');" title="Add to My Selections" data-odd="5.71" data-odd-max="6.13"></a></td>
 </tr>
 </tbody>
 <tbody data-key="39-63317">
@@ -3869,8 +3869,8 @@ function OptanonWrapper() { }
 <td class="table-main__streams">
 </td>
 <td class="table-main__odds" data-oid="63l9hxv464x0xgb4u8"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=EgFqzp6d&amp;outcomeid=63l9hxv464x0xgb4u8&amp;otheroutcomes=63l9hxv498x0x0,63l9hxv464x0xgb4u9');" title="Add to My Selections" data-odd="1.23" data-odd-max="1.28"></a></td>
-<td class="table-main__odds" data-oid="63l9hxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=EgFqzp6d&amp;outcomeid=63l9hxv498x0x0&amp;otheroutcomes=63l9hxv464x0xgb4u8,63l9hxv464x0xgb4u9');" title="Add to My Selections" data-odd="4.77" data-odd-max="5.25"></a></td>
-<td class="table-main__odds" data-oid="63l9hxv464x0xgb4u9"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=EgFqzp6d&amp;outcomeid=63l9hxv464x0xgb4u9&amp;otheroutcomes=63l9hxv464x0xgb4u8,63l9hxv498x0x0');" title="Add to My Selections" data-odd="11.62" data-odd-max="14.00"></a></td>
+<td class="table-main__odds" data-oid="63l9hxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=EgFqzp6d&amp;outcomeid=63l9hxv498x0x0&amp;otheroutcomes=63l9hxv464x0xgb4u8,63l9hxv464x0xgb4u9');" title="Add to My Selections" data-odd="4.78" data-odd-max="5.25"></a></td>
+<td class="table-main__odds" data-oid="63l9hxv464x0xgb4u9"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=EgFqzp6d&amp;outcomeid=63l9hxv464x0xgb4u9&amp;otheroutcomes=63l9hxv464x0xgb4u8,63l9hxv498x0x0');" title="Add to My Selections" data-odd="11.68" data-odd-max="14.00"></a></td>
 </tr>
 </tbody>
 <tbody data-key="39-63349">
@@ -3893,8 +3893,8 @@ function OptanonWrapper() { }
 <td class="table-main__streams">
 </td>
 <td class="table-main__odds" data-oid="61vqfxv464x0xg68q2"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=SSaMkvFa&amp;outcomeid=61vqfxv464x0xg68q2&amp;otheroutcomes=61vqfxv498x0x0,61vqfxv464x0xg68q3');" title="Add to My Selections" data-odd="1.58" data-odd-max="1.63"></a></td>
-<td class="table-main__odds" data-oid="61vqfxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=SSaMkvFa&amp;outcomeid=61vqfxv498x0x0&amp;otheroutcomes=61vqfxv464x0xg68q2,61vqfxv464x0xg68q3');" title="Add to My Selections" data-odd="3.74" data-odd-max="4.00"></a></td>
-<td class="table-main__odds" data-oid="61vqfxv464x0xg68q3"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=SSaMkvFa&amp;outcomeid=61vqfxv464x0xg68q3&amp;otheroutcomes=61vqfxv464x0xg68q2,61vqfxv498x0x0');" title="Add to My Selections" data-odd="5.07" data-odd-max="5.41"></a></td>
+<td class="table-main__odds" data-oid="61vqfxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=SSaMkvFa&amp;outcomeid=61vqfxv498x0x0&amp;otheroutcomes=61vqfxv464x0xg68q2,61vqfxv464x0xg68q3');" title="Add to My Selections" data-odd="3.75" data-odd-max="4.00"></a></td>
+<td class="table-main__odds" data-oid="61vqfxv464x0xg68q3"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=SSaMkvFa&amp;outcomeid=61vqfxv464x0xg68q3&amp;otheroutcomes=61vqfxv464x0xg68q2,61vqfxv498x0x0');" title="Add to My Selections" data-odd="5.10" data-odd-max="5.54"></a></td>
 </tr>
 </tbody>
 <tbody data-key="8-77062">
@@ -3908,7 +3908,7 @@ function OptanonWrapper() { }
 <li><a href="/bookmaker/1039/http://refparrknf.top/L?tag=s_144205m_355c_&amp;site=144205&amp;ad=355" target="_blank" data-bookmaker-url="1039">1xBet</a></li>
 </ul></div></li></ul>
 </td>
-<td class="table-main__odds" data-oid="64qapxv464x0xgeeob"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=IkK5P2U6&amp;outcomeid=64qapxv464x0xgeeob&amp;otheroutcomes=64qapxv498x0x0,64qapxv464x0xgeeoc');" title="Add to My Selections" data-odd="3.06" data-odd-max="3.15"></a></td>
+<td class="table-main__odds" data-oid="64qapxv464x0xgeeob"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=IkK5P2U6&amp;outcomeid=64qapxv464x0xgeeob&amp;otheroutcomes=64qapxv498x0x0,64qapxv464x0xgeeoc');" title="Add to My Selections" data-odd="3.04" data-odd-max="3.15"></a></td>
 <td class="table-main__odds" data-oid="64qapxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=IkK5P2U6&amp;outcomeid=64qapxv498x0x0&amp;otheroutcomes=64qapxv464x0xgeeob,64qapxv464x0xgeeoc');" title="Add to My Selections" data-odd="3.04" data-odd-max="3.20"></a></td>
 <td class="table-main__odds" data-oid="64qapxv464x0xgeeoc"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=IkK5P2U6&amp;outcomeid=64qapxv464x0xgeeoc&amp;otheroutcomes=64qapxv464x0xgeeob,64qapxv498x0x0');" title="Add to My Selections" data-odd="2.21" data-odd-max="2.27"></a></td>
 </tr>
@@ -4532,8 +4532,8 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="5r62dxv464x0xfir5j"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=pQZ0BRCN&amp;outcomeid=5r62dxv464x0xfir5j&amp;otheroutcomes=5r62dxv498x0x0,5r62dxv464x0xfir5k');" title="Add to My Selections" data-odd="2.54" data-odd-max="2.57"></a></td>
-<td class="table-main__odds" data-oid="5r62dxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=pQZ0BRCN&amp;outcomeid=5r62dxv498x0x0&amp;otheroutcomes=5r62dxv464x0xfir5j,5r62dxv464x0xfir5k');" title="Add to My Selections" data-odd="2.96" data-odd-max="3.00"></a></td>
+<td class="table-main__odds" data-oid="5r62dxv464x0xfir5j"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=pQZ0BRCN&amp;outcomeid=5r62dxv464x0xfir5j&amp;otheroutcomes=5r62dxv498x0x0,5r62dxv464x0xfir5k');" title="Add to My Selections" data-odd="2.52" data-odd-max="2.57"></a></td>
+<td class="table-main__odds" data-oid="5r62dxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=pQZ0BRCN&amp;outcomeid=5r62dxv498x0x0&amp;otheroutcomes=5r62dxv464x0xfir5j,5r62dxv464x0xfir5k');" title="Add to My Selections" data-odd="2.99" data-odd-max="3.10"></a></td>
 <td class="table-main__odds" data-oid="5r62dxv464x0xfir5k"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=pQZ0BRCN&amp;outcomeid=5r62dxv464x0xfir5k&amp;otheroutcomes=5r62dxv464x0xfir5j,5r62dxv498x0x0');" title="Add to My Selections" data-odd="2.65" data-odd-max="2.71"></a></td>
 </tr>
 </tbody>
@@ -4596,9 +4596,9 @@ function OptanonWrapper() { }
 <li><a href="/bookmaker/1039/http://refparrknf.top/L?tag=s_144205m_355c_&amp;site=144205&amp;ad=355" target="_blank" data-bookmaker-url="1039">1xBet</a></li>
 </ul></div></li></ul>
 </td>
-<td class="table-main__odds" data-oid="5ppm4xv464x0xff8os"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=I56KNfHp&amp;outcomeid=5ppm4xv464x0xff8os&amp;otheroutcomes=5ppm4xv498x0x0,5ppm4xv464x0xff8ot');" title="Add to My Selections" data-odd="2.61" data-odd-max="2.71"></a></td>
-<td class="table-main__odds" data-oid="5ppm4xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=I56KNfHp&amp;outcomeid=5ppm4xv498x0x0&amp;otheroutcomes=5ppm4xv464x0xff8os,5ppm4xv464x0xff8ot');" title="Add to My Selections" data-odd="4.35" data-odd-max="4.62"></a></td>
-<td class="table-main__odds" data-oid="5ppm4xv464x0xff8ot"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=I56KNfHp&amp;outcomeid=5ppm4xv464x0xff8ot&amp;otheroutcomes=5ppm4xv464x0xff8os,5ppm4xv498x0x0');" title="Add to My Selections" data-odd="2.06" data-odd-max="2.18"></a></td>
+<td class="table-main__odds" data-oid="5ppm4xv464x0xff8os"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=I56KNfHp&amp;outcomeid=5ppm4xv464x0xff8os&amp;otheroutcomes=5ppm4xv498x0x0,5ppm4xv464x0xff8ot');" title="Add to My Selections" data-odd="2.66" data-odd-max="2.82"></a></td>
+<td class="table-main__odds" data-oid="5ppm4xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=I56KNfHp&amp;outcomeid=5ppm4xv498x0x0&amp;otheroutcomes=5ppm4xv464x0xff8os,5ppm4xv464x0xff8ot');" title="Add to My Selections" data-odd="4.32" data-odd-max="4.72"></a></td>
+<td class="table-main__odds" data-oid="5ppm4xv464x0xff8ot"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=I56KNfHp&amp;outcomeid=5ppm4xv464x0xff8ot&amp;otheroutcomes=5ppm4xv464x0xff8os,5ppm4xv498x0x0');" title="Add to My Selections" data-odd="2.03" data-odd-max="2.18"></a></td>
 </tr>
 </tbody>
 <tbody data-key="198-62976">
@@ -4641,9 +4641,9 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="5k8j1xv464x0xf1cfv"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=S4ct5SPi&amp;outcomeid=5k8j1xv464x0xf1cfv&amp;otheroutcomes=5k8j1xv498x0x0,5k8j1xv464x0xf1cfu');" title="Add to My Selections" data-odd="2.16" data-odd-max="2.30"></a></td>
+<td class="table-main__odds" data-oid="5k8j1xv464x0xf1cfv"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=S4ct5SPi&amp;outcomeid=5k8j1xv464x0xf1cfv&amp;otheroutcomes=5k8j1xv498x0x0,5k8j1xv464x0xf1cfu');" title="Add to My Selections" data-odd="2.15" data-odd-max="2.20"></a></td>
 <td class="table-main__odds" data-oid="5k8j1xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=S4ct5SPi&amp;outcomeid=5k8j1xv498x0x0&amp;otheroutcomes=5k8j1xv464x0xf1cfv,5k8j1xv464x0xf1cfu');" title="Add to My Selections" data-odd="3.11" data-odd-max="3.25"></a></td>
-<td class="table-main__odds" data-oid="5k8j1xv464x0xf1cfu"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=S4ct5SPi&amp;outcomeid=5k8j1xv464x0xf1cfu&amp;otheroutcomes=5k8j1xv464x0xf1cfv,5k8j1xv498x0x0');" title="Add to My Selections" data-odd="3.07" data-odd-max="3.20"></a></td>
+<td class="table-main__odds" data-oid="5k8j1xv464x0xf1cfu"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=S4ct5SPi&amp;outcomeid=5k8j1xv464x0xf1cfu&amp;otheroutcomes=5k8j1xv464x0xf1cfv,5k8j1xv498x0x0');" title="Add to My Selections" data-odd="3.09" data-odd-max="3.25"></a></td>
 </tr>
 <tr data-dt="13,1,2023,14,00" data-def="0">
 <td class="table-main__tt"><span class="table-main__time">14:00</span><a href="/soccer/israel/leumit-league/hapoel-umm-al-fahm-maccabi-jaffa/WvsKuXp5/"><span>Hapoel Umm al-Fahm</span> - <span>Maccabi Jaffa</span></a></td>
@@ -4740,9 +4740,9 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="5ruvuxv464x0xfkshm"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=G2wfmyTe&amp;outcomeid=5ruvuxv464x0xfkshm&amp;otheroutcomes=5ruvuxv498x0x0,5ruvuxv464x0xfkshn');" title="Add to My Selections" data-odd="2.36" data-odd-max="2.42"></a></td>
+<td class="table-main__odds" data-oid="5ruvuxv464x0xfkshm"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=G2wfmyTe&amp;outcomeid=5ruvuxv464x0xfkshm&amp;otheroutcomes=5ruvuxv498x0x0,5ruvuxv464x0xfkshn');" title="Add to My Selections" data-odd="2.35" data-odd-max="2.42"></a></td>
 <td class="table-main__odds" data-oid="5ruvuxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=G2wfmyTe&amp;outcomeid=5ruvuxv498x0x0&amp;otheroutcomes=5ruvuxv464x0xfkshm,5ruvuxv464x0xfkshn');" title="Add to My Selections" data-odd="2.71" data-odd-max="2.92"></a></td>
-<td class="table-main__odds" data-oid="5ruvuxv464x0xfkshn"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=G2wfmyTe&amp;outcomeid=5ruvuxv464x0xfkshn&amp;otheroutcomes=5ruvuxv464x0xfkshm,5ruvuxv498x0x0');" title="Add to My Selections" data-odd="3.10" data-odd-max="3.21"></a></td>
+<td class="table-main__odds" data-oid="5ruvuxv464x0xfkshn"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=G2wfmyTe&amp;outcomeid=5ruvuxv464x0xfkshn&amp;otheroutcomes=5ruvuxv464x0xfkshm,5ruvuxv498x0x0');" title="Add to My Selections" data-odd="3.11" data-odd-max="3.21"></a></td>
 </tr>
 </tbody>
 <tbody data-key="8-77062">
@@ -4917,7 +4917,7 @@ function OptanonWrapper() { }
 </td>
 <td class="table-main__odds" data-oid="5siqqxv464x0xfmem8"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=ADQrZI2G&amp;outcomeid=5siqqxv464x0xfmem8&amp;otheroutcomes=5siqqxv498x0x0,5siqqxv464x0xfmem9');" title="Add to My Selections" data-odd="1.87" data-odd-max="1.91"></a></td>
 <td class="table-main__odds" data-oid="5siqqxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=ADQrZI2G&amp;outcomeid=5siqqxv498x0x0&amp;otheroutcomes=5siqqxv464x0xfmem8,5siqqxv464x0xfmem9');" title="Add to My Selections" data-odd="2.94" data-odd-max="3.01"></a></td>
-<td class="table-main__odds" data-oid="5siqqxv464x0xfmem9"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=ADQrZI2G&amp;outcomeid=5siqqxv464x0xfmem9&amp;otheroutcomes=5siqqxv464x0xfmem8,5siqqxv498x0x0');" title="Add to My Selections" data-odd="4.22" data-odd-max="4.40"></a></td>
+<td class="table-main__odds" data-oid="5siqqxv464x0xfmem9"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=ADQrZI2G&amp;outcomeid=5siqqxv464x0xfmem9&amp;otheroutcomes=5siqqxv464x0xfmem8,5siqqxv498x0x0');" title="Add to My Selections" data-odd="4.22" data-odd-max="4.38"></a></td>
 </tr>
 </tbody>
 <tbody data-key="18-62923">
@@ -4996,9 +4996,9 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="648b1xv464x0xgcsg8"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=4pa9j1Ms&amp;outcomeid=648b1xv464x0xgcsg8&amp;otheroutcomes=648b1xv498x0x0,648b1xv464x0xgcsg9');" title="Add to My Selections" data-odd="1.49" data-odd-max="1.55"></a></td>
+<td class="table-main__odds" data-oid="648b1xv464x0xgcsg8"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=4pa9j1Ms&amp;outcomeid=648b1xv464x0xgcsg8&amp;otheroutcomes=648b1xv498x0x0,648b1xv464x0xgcsg9');" title="Add to My Selections" data-odd="1.50" data-odd-max="1.55"></a></td>
 <td class="table-main__odds" data-oid="648b1xv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=4pa9j1Ms&amp;outcomeid=648b1xv498x0x0&amp;otheroutcomes=648b1xv464x0xgcsg8,648b1xv464x0xgcsg9');" title="Add to My Selections" data-odd="3.84" data-odd-max="4.00"></a></td>
-<td class="table-main__odds" data-oid="648b1xv464x0xgcsg9"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=4pa9j1Ms&amp;outcomeid=648b1xv464x0xgcsg9&amp;otheroutcomes=648b1xv464x0xgcsg8,648b1xv498x0x0');" title="Add to My Selections" data-odd="5.61" data-odd-max="6.00"></a></td>
+<td class="table-main__odds" data-oid="648b1xv464x0xgcsg9"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=4pa9j1Ms&amp;outcomeid=648b1xv464x0xgcsg9&amp;otheroutcomes=648b1xv464x0xgcsg8,648b1xv498x0x0');" title="Add to My Selections" data-odd="5.51" data-odd-max="5.70"></a></td>
 </tr>
 </tbody>
 <tbody data-key="168-76518">
@@ -5211,8 +5211,8 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="6144dxv464x0xg3m11"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YTxXIAf3&amp;outcomeid=6144dxv464x0xg3m11&amp;otheroutcomes=6144dxv498x0x0,6144dxv464x0xg3m12');" title="Add to My Selections" data-odd="1.41" data-odd-max="1.46"></a></td>
-<td class="table-main__odds" data-oid="6144dxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YTxXIAf3&amp;outcomeid=6144dxv498x0x0&amp;otheroutcomes=6144dxv464x0xg3m11,6144dxv464x0xg3m12');" title="Add to My Selections" data-odd="4.14" data-odd-max="4.50"></a></td>
+<td class="table-main__odds" data-oid="6144dxv464x0xg3m11"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YTxXIAf3&amp;outcomeid=6144dxv464x0xg3m11&amp;otheroutcomes=6144dxv498x0x0,6144dxv464x0xg3m12');" title="Add to My Selections" data-odd="1.42" data-odd-max="1.46"></a></td>
+<td class="table-main__odds" data-oid="6144dxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YTxXIAf3&amp;outcomeid=6144dxv498x0x0&amp;otheroutcomes=6144dxv464x0xg3m11,6144dxv464x0xg3m12');" title="Add to My Selections" data-odd="4.08" data-odd-max="4.33"></a></td>
 <td class="table-main__odds" data-oid="6144dxv464x0xg3m12"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=YTxXIAf3&amp;outcomeid=6144dxv464x0xg3m12&amp;otheroutcomes=6144dxv464x0xg3m11,6144dxv498x0x0');" title="Add to My Selections" data-odd="6.50" data-odd-max="6.75"></a></td>
 </tr>
 </tbody>
@@ -5873,9 +5873,9 @@ function OptanonWrapper() { }
 <li><a href="/bookmaker/1039/http://refparrknf.top/L?tag=s_144205m_355c_&amp;site=144205&amp;ad=355" target="_blank" data-bookmaker-url="1039">1xBet</a></li>
 </ul></div></li></ul>
 </td>
-<td class="table-main__odds" data-oid="5ppcnxv464x0xff862"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=AiXAmvsp&amp;outcomeid=5ppcnxv464x0xff862&amp;otheroutcomes=5ppcnxv498x0x0,5ppcnxv464x0xff863');" title="Add to My Selections" data-odd="1.41" data-odd-max="1.46"></a></td>
-<td class="table-main__odds" data-oid="5ppcnxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=AiXAmvsp&amp;outcomeid=5ppcnxv498x0x0&amp;otheroutcomes=5ppcnxv464x0xff862,5ppcnxv464x0xff863');" title="Add to My Selections" data-odd="4.80" data-odd-max="5.05"></a></td>
-<td class="table-main__odds" data-oid="5ppcnxv464x0xff863"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=AiXAmvsp&amp;outcomeid=5ppcnxv464x0xff863&amp;otheroutcomes=5ppcnxv464x0xff862,5ppcnxv498x0x0');" title="Add to My Selections" data-odd="5.51" data-odd-max="6.00"></a></td>
+<td class="table-main__odds" data-oid="5ppcnxv464x0xff862"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=AiXAmvsp&amp;outcomeid=5ppcnxv464x0xff862&amp;otheroutcomes=5ppcnxv498x0x0,5ppcnxv464x0xff863');" title="Add to My Selections" data-odd="1.40" data-odd-max="1.46"></a></td>
+<td class="table-main__odds" data-oid="5ppcnxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=AiXAmvsp&amp;outcomeid=5ppcnxv498x0x0&amp;otheroutcomes=5ppcnxv464x0xff862,5ppcnxv464x0xff863');" title="Add to My Selections" data-odd="4.82" data-odd-max="5.05"></a></td>
+<td class="table-main__odds" data-oid="5ppcnxv464x0xff863"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=AiXAmvsp&amp;outcomeid=5ppcnxv464x0xff863&amp;otheroutcomes=5ppcnxv464x0xff862,5ppcnxv498x0x0');" title="Add to My Selections" data-odd="5.57" data-odd-max="6.20"></a></td>
 </tr>
 <tr data-dt="13,1,2023,20,00" data-def="0">
 <td class="table-main__tt"><span class="table-main__time">20:00</span><a href="/soccer/england/premier-league-2/chelsea-wolves/hGMFnbdj/"><span>Chelsea U21</span> - <span>Wolves U21</span></a></td>
@@ -5888,7 +5888,7 @@ function OptanonWrapper() { }
 </td>
 <td class="table-main__odds" data-oid="5ppcoxv464x0xff864"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hGMFnbdj&amp;outcomeid=5ppcoxv464x0xff864&amp;otheroutcomes=5ppcoxv498x0x0,5ppcoxv464x0xff865');" title="Add to My Selections" data-odd="1.41" data-odd-max="1.46"></a></td>
 <td class="table-main__odds" data-oid="5ppcoxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hGMFnbdj&amp;outcomeid=5ppcoxv498x0x0&amp;otheroutcomes=5ppcoxv464x0xff864,5ppcoxv464x0xff865');" title="Add to My Selections" data-odd="4.71" data-odd-max="5.00"></a></td>
-<td class="table-main__odds" data-oid="5ppcoxv464x0xff865"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hGMFnbdj&amp;outcomeid=5ppcoxv464x0xff865&amp;otheroutcomes=5ppcoxv464x0xff864,5ppcoxv498x0x0');" title="Add to My Selections" data-odd="5.68" data-odd-max="6.17"></a></td>
+<td class="table-main__odds" data-oid="5ppcoxv464x0xff865"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=hGMFnbdj&amp;outcomeid=5ppcoxv464x0xff865&amp;otheroutcomes=5ppcoxv464x0xff864,5ppcoxv498x0x0');" title="Add to My Selections" data-odd="5.68" data-odd-max="6.16"></a></td>
 </tr>
 <tr data-dt="13,1,2023,20,00" data-def="0">
 <td class="table-main__tt"><span class="table-main__time">20:00</span><a href="/soccer/england/premier-league-2/southampton-newcastle-utd/W8AOMEWj/"><span>Southampton U21</span> - <span>Newcastle Utd U21</span></a></td>
@@ -6079,9 +6079,9 @@ function OptanonWrapper() { }
 <td class="livebet">&nbsp;</td>
 <td class="table-main__streams">
 </td>
-<td class="table-main__odds" data-oid="5m2jrxv464x0xf6737"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=MNCrucMj&amp;outcomeid=5m2jrxv464x0xf6737&amp;otheroutcomes=5m2jrxv498x0x0,5m2jrxv464x0xf6738');" title="Add to My Selections" data-odd="2.55" data-odd-max="2.60"></a></td>
-<td class="table-main__odds" data-oid="5m2jrxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=MNCrucMj&amp;outcomeid=5m2jrxv498x0x0&amp;otheroutcomes=5m2jrxv464x0xf6737,5m2jrxv464x0xf6738');" title="Add to My Selections" data-odd="3.51" data-odd-max="3.60"></a></td>
-<td class="table-main__odds" data-oid="5m2jrxv464x0xf6738"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=MNCrucMj&amp;outcomeid=5m2jrxv464x0xf6738&amp;otheroutcomes=5m2jrxv464x0xf6737,5m2jrxv498x0x0');" title="Add to My Selections" data-odd="2.25" data-odd-max="2.30"></a></td>
+<td class="table-main__odds" data-oid="5m2jrxv464x0xf6737"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=MNCrucMj&amp;outcomeid=5m2jrxv464x0xf6737&amp;otheroutcomes=5m2jrxv498x0x0,5m2jrxv464x0xf6738');" title="Add to My Selections" data-odd="2.70" data-odd-max="2.79"></a></td>
+<td class="table-main__odds" data-oid="5m2jrxv498x0x0"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=MNCrucMj&amp;outcomeid=5m2jrxv498x0x0&amp;otheroutcomes=5m2jrxv464x0xf6737,5m2jrxv464x0xf6738');" title="Add to My Selections" data-odd="3.61" data-odd-max="3.62"></a></td>
+<td class="table-main__odds" data-oid="5m2jrxv464x0xf6738"><a href="javascript:void(0);" onclick="my_selections_click('1x2', 'soccer', 'action=3&amp;matchid=MNCrucMj&amp;outcomeid=5m2jrxv464x0xf6738&amp;otheroutcomes=5m2jrxv464x0xf6737,5m2jrxv498x0x0');" title="Add to My Selections" data-odd="2.20" data-odd-max="2.30"></a></td>
 </tr>
 <tr data-dt="13,1,2023,20,30" data-def="0">
 <td class="table-main__tt"><span class="table-main__time">20:30</span><a href="/soccer/wales/cymru-south/goytre-utd-trefelin/ClN8oaqN/"><span>Goytre Utd</span> - <span>Trefelin</span></a></td>
@@ -6578,8 +6578,8 @@ var sort_by_name = ['1-58802', '17-62906', '18-62923', '22-63046', '5-76119', '5
 							<li><a href="/site-info.php">Site Info</a></li>
 							<li>
 								<a href="/" id="footer__bottom__switcher">
-									<span class="footer__bottom__switcher-desktop" style="display: inline;">Desktop version</span>
-									<span class="footer__bottom__switcher-mobile" style="display: none;">Mobile version</span>
+									<span class="footer__bottom__switcher-desktop">Desktop version</span>
+									<span class="footer__bottom__switcher-mobile">Mobile version</span>
 								</a>
 							</li>
 							<li><a href="/contact.php">Contact Us</a></li>
@@ -6749,7 +6749,7 @@ var sort_by_name = ['1-58802', '17-62906', '18-62923', '22-63046', '5-76119', '5
 											<span class="search__results__close js-search-results-close"><i class="icon icon__close-small"></i></span>
 											<ul class="wrap-header__list">
 												<li class="wrap-header__list__item semilong">
-													<select onchange="do_search(this);" style="display: none;">
+													<select onchange="do_search(this);">
 														<option value="0" selected="">all sports</option>
 <option value="1">Soccer</option>
 <option value="3">Basketball</option>
@@ -6758,7 +6758,7 @@ var sort_by_name = ['1-58802', '17-62906', '18-62923', '22-63046', '5-76119', '5
 <option value="6">Baseball</option>
 <option value="12">Volleyball</option>
 <option value="7">Handball</option>
-													</select><div class="select" style="z-index: 248;"><ul style="z-index: 249;"><li rel="0" class="closed" style="z-index: 250;">all sports</li></ul></div>
+													</select>
 												</li>
 											</ul>
 										</div>
@@ -6875,10 +6875,10 @@ var sort_by_name = ['1-58802', '17-62906', '18-62923', '22-63046', '5-76119', '5
 					</div>
 				</div>
 			</div>
-		</div>		
+		</div><iframe style="display: none;" name="__tcfapiLocator" title="CMP Locator"></iframe>		
 		<!--<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js?serial=2212191210"></script>-->
 		<script>window.jQuery || document.write('<script src="/res/js/libs/jquery-1.11.3.min.js?serial=2212191210"><\/script>')</script><script src="/res/js/libs/jquery-1.11.3.min.js?serial=2212191210"></script><script type="text/javascript" id="">$("#mutual_div \x3e div.wrap-header \x3e ul \x3e li \x3e div \x3e ul \x3e li").on("click",function(){dataLayer.push({event:"h2h-click"})});</script><script type="text/javascript" id="">$.fn.isInViewport=function(){if($(this).length){var a=$(this).offset().top,c=a+$(this).outerHeight(),b=$(window).scrollTop(),d=b+$(window).height();return c>b&&a<d}};
-$(window).on("scroll",function(){$("#glib-stats-data").isInViewport()&&dataLayer.push({event:"league-table"});$("#js-leagueresults-all").isInViewport()&&dataLayer.push({event:"league-results"});$("#match-h2h").isInViewport()&&dataLayer.push({event:"match-h2h"});$("#match-results-home").isInViewport()&&dataLayer.push({event:"match-results-home"});$("#match-results-away").isInViewport()&&dataLayer.push({event:"match-results-away"})});</script><script type="text/javascript" id="">$(".icon__stream").on("mouseover",function(){dataLayer.push({"event-name":"icon_tv",event:"icon-mouseover"})});</script><iframe style="display: none;" name="__tcfapiLocator" title="CMP Locator"></iframe>
+$(window).on("scroll",function(){$("#glib-stats-data").isInViewport()&&dataLayer.push({event:"league-table"});$("#js-leagueresults-all").isInViewport()&&dataLayer.push({event:"league-results"});$("#match-h2h").isInViewport()&&dataLayer.push({event:"match-h2h"});$("#match-results-home").isInViewport()&&dataLayer.push({event:"match-results-home"});$("#match-results-away").isInViewport()&&dataLayer.push({event:"match-results-away"})});</script><script type="text/javascript" id="">$(".icon__stream").on("mouseover",function(){dataLayer.push({"event-name":"icon_tv",event:"icon-mouseover"})});</script>
 
 		<script type="text/javascript" src="/res/js/all.min.js?serial=2212191210"></script>
 		<script type="text/javascript" src="/res/js/libs/odds-format.js.php?serial=2212191210"></script>
