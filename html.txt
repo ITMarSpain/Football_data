@@ -8,7 +8,7 @@
 	<meta name="description" content="Provides the list of upcoming soccer and hockey matches together with the odds of reliable bookmakers.">
 	<title>BetExplorer - Upcoming Soccer matches with odds</title>
 	<meta name="google-site-verification" content="anJD1mJuHp6ohINolrhOa1sPRGwdj2eomUyrlApr3Tg">
-	<script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-JCVB9K4MPH&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://connect.facebook.net/en_US/all.js?hash=f41d6d6c6055400eeb0e61fb1bd6e434" async="" crossorigin="anonymous"></script><script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js#xfbml=1"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-M5QNL7"></script><script type="text/javascript">
+	<script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-JCVB9K4MPH&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://connect.facebook.net/en_US/all.js?hash=7623a51addac7870811219f522630a46" async="" crossorigin="anonymous"></script><script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js#xfbml=1"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-M5QNL7"></script><script type="text/javascript">
 		_use_timezones = true;
 		_page_proxy = true;
 		_init_get_message = 0;
@@ -6578,8 +6578,8 @@ var sort_by_name = ['1-58802', '17-62906', '18-62923', '22-63046', '5-76119', '5
 							<li><a href="/site-info.php">Site Info</a></li>
 							<li>
 								<a href="/" id="footer__bottom__switcher">
-									<span class="footer__bottom__switcher-desktop">Desktop version</span>
-									<span class="footer__bottom__switcher-mobile">Mobile version</span>
+									<span class="footer__bottom__switcher-desktop" style="display: inline;">Desktop version</span>
+									<span class="footer__bottom__switcher-mobile" style="display: none;">Mobile version</span>
 								</a>
 							</li>
 							<li><a href="/contact.php">Contact Us</a></li>
