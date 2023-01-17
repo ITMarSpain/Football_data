@@ -1,1 +1,2 @@
-Time_scraped
+Time_scraped,Gametime,Country,League,Match,bookie_home,highest_odd_home,bookie_draw,highest_odd_draw,bookie_away,highest_odd_away,TotalBookies,average_odd_home,average_odd_draw,average_odd_away,std_home,std_draw,std_away,median_home,median_draw,median_away,url
+2023-01-17 11:55:53.601986,2023-01-16 20:45:00,Italy,SerieA,Empoli - Sampdoria,Lasbet,2.25,Lasbet,3.45,William Hill,4.2,30,2.11,3.26,3.78,0.06480397793002801,0.08678517538535406,0.13836987469179202,2.1,3.25,3.8,https://www.oddsportal.com/soccer/italy/serie-a/empoli-sampdoria-W4QPYQLI/#1X2;2
